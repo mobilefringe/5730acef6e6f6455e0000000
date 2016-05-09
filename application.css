@@ -134,6 +134,9 @@ body{
     padding:4px 10px;
     width: 190px;
     float: left;
+    &:focus{
+        outline:none;
+    }
 }
 
 .newsletter_btn{

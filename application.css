@@ -165,11 +165,19 @@ body{
     margin-bottom: 10px;
 }
 
+#instafeed{
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+}
+
 .ig_image{
     display:block;
     float:left;
-    width:50px;
+    width:55px;
     height:50px;
+    padding: 0 2.5px;
+    margin-bottom: 5px;
+    color: black;
     img{
         width:100%;
     }

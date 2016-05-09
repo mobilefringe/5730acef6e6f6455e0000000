@@ -37,7 +37,26 @@
                 <img src="http://placehold.it/300x66" class="main_logo" />
             </div>
             <div class="col-md-8">
-                
+                <div class="social_links">
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809767000/instagram.png" class="" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809758000/twitter.png" class="" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809767000/instagram.png" class="" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809752000/pinterest.png" class="" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809881000/you_tube.png" class="" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809889000/google_plus.png" class="" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </header>

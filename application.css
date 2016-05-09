@@ -1,3 +1,5 @@
+// layout CSS
+
 body{
     margin-top:18px;
 }
@@ -6,4 +8,9 @@ body{
     width:940px;
     margin-left:auto;
     margin-right:auto;
+}
+
+.main_logo{
+    width:300px;
+    margin-top:10px;
 }

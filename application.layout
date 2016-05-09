@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <div class="main_header">
             
         </div>

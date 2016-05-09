@@ -33,6 +33,13 @@ body{
 
 .top_menu{
     a{
-        
+        font-family: Avenir-Heavy;
+        font-size: 12px;
+        color: #373A3C;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        margin: 0 10px;
+        display: block;
+        float: left;
     }
 }

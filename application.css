@@ -18,7 +18,8 @@ body{
 .social_links{
     float:right;
     a{
-        display:inline-block;
+        display:block;
+        float:left;
     }
     img{
         width:30px;

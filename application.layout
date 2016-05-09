@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <header class="container main_nav">
+    <header class="main_container main_nav">
         <div class="row">
             <div class="logo_container">
                 <img src="http://placehold.it/300x66" class="main_logo" />

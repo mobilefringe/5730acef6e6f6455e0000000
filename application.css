@@ -19,6 +19,7 @@ body{
 }
 
 .logo_container{
+    background:$layout_color;
     position: relative;
     min-height: 1px;
     padding-right: 15px;

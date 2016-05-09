@@ -21,7 +21,7 @@ body{
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    width:300px;
+    width:330px;
     float:left;
 }
 
@@ -30,7 +30,7 @@ body{
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    width: calc(100% - 300px);
+    width: calc(100% - 330px);
     float:left;
 }
 

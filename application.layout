@@ -66,8 +66,8 @@
                     <a href="#">Dine</a>
                     <a href="#">Location</a>
                     <a href="#">Center Information</a>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </header>

@@ -78,13 +78,13 @@
     <footer class="main_footer main_container">
         <div class="footer_row">
             <div class="footer_col">
-                
+                <h5 class="heading">HOURS</h5>
             </div>
             <div class="footer_col">
-                
+                <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
             </div>
             <div class="footer_col">
-                
+                <h5 class="heading">INSTAGRAM</h5>
             </div>
         </div>
     </footer>

@@ -16,6 +16,10 @@ body{
     margin-right:auto;
 }
 
+.main_nav{
+    margin-bottom:20px;
+}
+
 .main_logo{
     width:300px;
     margin-top:10px;

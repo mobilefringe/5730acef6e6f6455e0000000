@@ -83,7 +83,7 @@
             </div>
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
-                <div>
+                <div class="newsletter_div">
                     <input type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" />
                     <button class="newsletter_btn">Subscribe</button>
                 </div>

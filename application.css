@@ -7,9 +7,12 @@ $layout_color: #67ACA3;
     src: url('http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/font/truetype/1462834422000/Avenir-Heavy.ttf');
 }
 
-
 body{
     margin-top:18px;
+}
+
+.margin_10{
+    margin-bottom:10px;
 }
 
 .main_container{

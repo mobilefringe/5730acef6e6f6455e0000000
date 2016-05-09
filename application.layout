@@ -76,7 +76,9 @@
         {{yield}}
     </section>
     <footer class="main_footer main_container">
-        
+        <div class="footer_row">
+            
+        </div>
     </footer>
 </body>
 

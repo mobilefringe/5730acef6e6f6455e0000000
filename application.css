@@ -81,6 +81,14 @@ body{
     background: #F2F2F2;
 }
 
+.footer_row{
+    margin-left:-20px;
+    margin-right:-20px;
+    &:after{
+        clear:both;
+    }
+}
+
 
 
 

@@ -32,8 +32,13 @@
 
 <body>
     <header class="container">
-        <div class="main_header">
-            
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-8">
+                
+            </div>
         </div>
     </header>
     <section id="content">

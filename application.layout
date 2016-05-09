@@ -61,7 +61,11 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="top_menu">
-                    
+                    <a href="#">Directory</a>
+                    <a href="#">Events & Promotions</a>
+                    <a href="#">Dine</a>
+                    <a href="#">Location</a>
+                    <a href="#">Center Information</a>
                 </div>
             </div>
         </div>

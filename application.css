@@ -136,6 +136,7 @@ body{
     float: left;
     &:focus{
         outline:none;
+        border-color:$layout_color;
     }
 }
 

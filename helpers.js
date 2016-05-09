@@ -1,4 +1,4 @@
-function init(){
+function init(e){
     if ($('#instafeed').length > 0) {
         var feed = new Instafeed({
             get: 'user',

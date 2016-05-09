@@ -11,9 +11,7 @@ body{
     margin-top:18px;
 }
 
-.margin_10{
-    margin-bottom:10px;
-}
+
 
 .main_container{
     width:940px;
@@ -110,6 +108,7 @@ body{
     color: #000000;
     letter-spacing: 0.5px;
     margin: 0;
+    margin-bottom:10px;
 }
 
 

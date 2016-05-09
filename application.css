@@ -139,7 +139,7 @@ body{
 .newsletter_btn{
     background: $layout_color;
     border: 1px solid #CCCCCC;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
     font-family: Avenir-Book;
     font-size: 14px;
     color:#fff;

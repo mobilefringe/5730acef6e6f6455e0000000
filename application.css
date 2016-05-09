@@ -70,7 +70,9 @@ body{
         color: #373A3C;
         letter-spacing: 0px;
         text-transform: uppercase;
-        padding: 0 15px;
+        padding: 0 17px;
+        float: left;
+        display: block;
     }
 }
 

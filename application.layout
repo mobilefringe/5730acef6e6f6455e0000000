@@ -38,7 +38,7 @@
             <div class="logo_container">
                 <img src="http://placehold.it/300x66" class="main_logo" />
             </div>
-            <div class="col-md-8">
+            <div class="nav_container">
                 <div class="social_links">
                     <a href="#" target="_blank">
                         <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809741000/facebook.png" class="" alt="fb">

@@ -137,7 +137,7 @@ body{
 }
 
 .newsletter_btn{
-    background: #67ACA3;
+    background: $layout_color;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
     font-family: Avenir-Book;

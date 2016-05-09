@@ -67,6 +67,7 @@
                     <a href="#">Location</a>
                     <a href="#">Center Information</a>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </header>

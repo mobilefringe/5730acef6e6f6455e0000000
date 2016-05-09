@@ -84,8 +84,14 @@ body{
 .footer_row{
     margin-left:-20px;
     margin-right:-20px;
+    &:before{
+        display: table;
+        content: " ";
+    }
     &:after{
         clear:both;
+        display: table;
+        content: " ";
     }
 }
 

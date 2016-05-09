@@ -95,6 +95,7 @@
             </div>
             <div class="footer_col">
                 <h5 class="heading">INSTAGRAM</h5>
+                <div id="instafeed"></div>
             </div>
         </div>
     </footer>

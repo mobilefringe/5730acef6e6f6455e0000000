@@ -111,8 +111,10 @@
                     Powered by <a href="http://mallmaverick.com" target="_blank">Mall Maverick</a>
                 </p>
             </div>
-            <div class="footer_text">
-                2225 Village Walk Drive, Suite 171, Henderson, NV 89052
+            <div class="col-md-6">
+                <p class="footer_text">
+                    2225 Village Walk Drive, Suite 171, Henderson, NV 89052
+                </p>
             </div>
         </div>
     </section>

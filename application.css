@@ -101,6 +101,9 @@ body{
     letter-spacing: 0px;
     line-height: 16px;
     margin-bottom:0;
+    a{
+        color: #FFFFFF;    
+    }
 }
 
 .footer_row{

@@ -104,7 +104,9 @@
     <section class="copyright_footer main_container">
         <div class="row">
             <div class="col-md-6">
-                <p class="footer_text"></p>
+                <p class="footer_text">
+                    © Copyright 2016 The District at Green Valley Ranch
+                </p>
             </div>
         </div>
     </section>

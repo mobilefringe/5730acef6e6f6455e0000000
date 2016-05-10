@@ -112,11 +112,17 @@
                 </p>
             </div>
             <div class="col-md-6 text-right">
-                <p class="footer_text">
-                    2225 Village Walk Drive, Suite 171, Henderson, NV 89052
-                </p>
-                <p class="footer_text">
-                    <a href="tel:7025648595">702.564.8595</a> | <a href="#">Policy</a> / <a href="#">Terms of Use</a> | <a href="/jobs">Jobs</a> | Vestar Property</p>
+                <div class="pull-right">
+                    
+                </div>
+                <div>
+                    <p class="footer_text">
+                        2225 Village Walk Drive, Suite 171, Henderson, NV 89052
+                    </p>
+                    <p class="footer_text">
+                        <a href="tel:7025648595">702.564.8595</a> | <a href="#">Policy</a> / <a href="#">Terms of Use</a> | <a href="/jobs">Jobs</a> | Vestar Property
+                    </p>
+                </div>
             </div>
         </div>
     </section>

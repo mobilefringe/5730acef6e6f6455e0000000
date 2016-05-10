@@ -112,9 +112,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-right">
-                <div class="pull-right">
-                    <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462907962000/vestar_Logo.png" class="vestar_logo" alt="">
-                </div>
+                <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462907962000/vestar_Logo.png" class="vestar_logo" alt="">
                 <div>
                     <p class="footer_text">
                         2225 Village Walk Drive, Suite 171, Henderson, NV 89052

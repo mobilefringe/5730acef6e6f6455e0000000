@@ -183,6 +183,13 @@ body{
     }
 }
 
+.view_more_btn{
+    font-family: Avenir-Book;
+    font-size: 12px;
+    color: $layout_color;
+    letter-spacing: 0.49px;
+}
+
 
 
 

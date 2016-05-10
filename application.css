@@ -208,7 +208,9 @@ body{
 }
 
 .vestar_logo{
-    height:30px;
+    height: 32px;
+    float: right;
+    margin-left: 20px;;
 }
 
 

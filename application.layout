@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="footer_col">
-                <a class="pull-right" href="https://www.instagram.com/thedistrictgvr/" target="_blank">view more ></a>
+                <a class="pull-right view_more_btn" href="https://www.instagram.com/thedistrictgvr/" target="_blank">view more ></a>
                 <h5 class="heading">INSTAGRAM</h5>
                 <div id="instafeed"></div>
             </div>

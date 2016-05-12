@@ -15,7 +15,7 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item">
                 <a href="#">
-                    <img src="{{}}" alt="Feature item" />
+                    <img src="{{image_url}}" alt="Feature item" />
                 </a>
             </div>
         </script>

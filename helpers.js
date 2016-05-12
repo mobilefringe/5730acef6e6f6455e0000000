@@ -8,7 +8,6 @@ function init(e){
             clientId: 'da5cf03899eb49a496424d9a76bafa0d',
             template: '<a class="ig_image" target=_blank href="{{link}}" title="{{caption}}" ><img src="{{image}}" /></a>',
             limit : 15
-
         });
     
         feed.run();

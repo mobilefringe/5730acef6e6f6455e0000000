@@ -16,7 +16,7 @@
         loadMallDataCached(renderPage);
     })
     
-    function renderAll(){
+    function renderPage(){
         var banners = getBanners();
         var feature_items = getFeatureList();
         var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });

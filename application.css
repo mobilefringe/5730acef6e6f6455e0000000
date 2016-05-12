@@ -282,6 +282,8 @@ body{
     .feature_col{
         padding-left:10px;
         padding-right:10px;
+        width: 33.333333%;
+        float: left;
     }
 }
 

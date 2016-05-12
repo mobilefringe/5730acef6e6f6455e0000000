@@ -39,7 +39,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('http://vagateway.mallmaverick.com/api/v2/vagateway/all.json');
+        setEndPoint('http://thedistrict.mallmaverick.com/api/v2/thedistrict/all.json');
     </script>
 </head>
 

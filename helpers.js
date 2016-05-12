@@ -13,3 +13,7 @@ function init(e){
         feed.run();
     }
 }
+
+function show_content(){
+    $('.custom_backdrop').remove()
+}

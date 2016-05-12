@@ -232,6 +232,9 @@ body{
 
 
 //Home 
+.flexslider{
+    border:0;
+}
 
 .banner_image_div{
     background-size: cover;

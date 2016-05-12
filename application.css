@@ -18,6 +18,23 @@ body{
     margin-top:18px;
 }
 
+.custom_backdrop{
+    opacity: 0.8;
+    background: #fff;
+    text-align: center;
+}
+.custom_backdrop img {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 
 
 .main_container{

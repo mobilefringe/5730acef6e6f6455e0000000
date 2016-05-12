@@ -14,7 +14,7 @@
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_col">
-                <a href="#">
+                <a href="{{url}}">
                     <img src="{{image_url}}" alt="Feature item" />
                 </a>
             </div>

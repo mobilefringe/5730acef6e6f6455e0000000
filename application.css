@@ -240,6 +240,9 @@ body{
     bottom:12px;
     z-index:9;
 }
+.flex-control-paging li a.flex-active{
+    background: #67ACA3;
+}
 
 .banner_image_div{
     background-size: cover;

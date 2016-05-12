@@ -13,7 +13,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        loadMallDataCached(renderPageData);
+        loadMallDataCached(renderPage);
     })
     
     function renderAll(){

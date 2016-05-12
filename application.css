@@ -287,6 +287,9 @@ body{
         padding-right:10px;
         width: 33.333333%;
         float: left;
+        img{
+            width:100%;
+        }
     }
 }
 

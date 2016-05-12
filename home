@@ -13,7 +13,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        show_content();
+        // show_content();
         $('.flexslider').flexslider({
             animation: "slide",
         });

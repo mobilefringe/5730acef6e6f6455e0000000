@@ -1,4 +1,15 @@
-
+<div class="flexslider">
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <div style="background-image:url(http://bootstraplovers.com/templates/assan-2.1.01/e-commerce/images/bg/bg-1.jpg)" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
+        </script>
+    </ul>
+</div>
 <script>
     $(document).ready(function(e){
         init(e)

@@ -267,6 +267,20 @@ body{
     display:block;
 }
 
+.feature_row{
+    margin-left:-10px;
+    margin-right:-10px;
+    &:before{
+        display: table;
+        content: " ";
+    }
+    &:after{
+        clear:both;
+        display: table;
+        content: " ";
+    }
+}
+
 
 
 

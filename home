@@ -24,7 +24,7 @@
         
         show_content();
         $('.flexslider').flexslider({
-            animation: "slide",
+            animation: "fade",
         });
     }
 </script>

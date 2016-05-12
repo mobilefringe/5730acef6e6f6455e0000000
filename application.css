@@ -271,6 +271,8 @@ body{
 .feature_row{
     margin-left:-10px;
     margin-right:-10px;
+    margin-top:40px;
+    margin-bottom:40px;
     &:before{
         display: table;
         content: " ";

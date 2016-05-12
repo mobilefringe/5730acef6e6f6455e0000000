@@ -12,6 +12,10 @@
 </div>
 <script>
     $(document).ready(function(e){
-        init(e)
+        init(e);
+        show_content();
+        $('.flexslider').flexslider({
+            animation: "slide",
+        });
     })
 </script>

@@ -234,6 +234,7 @@ body{
 //Home 
 .flexslider{
     border:0;
+    margin-bottom: 0
 }
 
 .flex-control-nav{

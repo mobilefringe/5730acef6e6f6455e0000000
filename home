@@ -13,7 +13,7 @@
 <div class="main_footer main_container">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
-            <div class="feature_item wow animated flipInX animated">
+            <div class="feature_item">
                 <a href="#">
                     <figure style="background-image:url('{{image_url}}')">
                         <figcaption>

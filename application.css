@@ -233,6 +233,12 @@ body{
 
 //Home 
 
+.banner_image_div{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: 50%;
+}
+
 .banner_image_li{
     height:500px;
     display:block;

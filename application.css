@@ -35,6 +35,8 @@ body{
     transform: translate(-50%, -50%);
 }
 
+
+
 .main_container{
     width:940px;
     margin-left:auto;
@@ -226,6 +228,14 @@ body{
     height: 32px;
     float: right;
     margin-left: 20px;;
+}
+
+
+//Home 
+
+.banner_image_li{
+    height:500px;
+    display:block;
 }
 
 

@@ -15,11 +15,6 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item">
                 <a href="#">
-                    <figure style="background-image:url('{{image_url}}')">
-                        <figcaption>
-                            <div class="view_button">View</div>
-                        </figcaption>
-                    </figure>
                 </a>
             </div>
         </script>

@@ -10,7 +10,7 @@
         </script>
     </ul>
 </div>
-<div class="main_footer main_container">
+<div class="main_container">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_col">

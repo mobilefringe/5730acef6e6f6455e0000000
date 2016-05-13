@@ -14,10 +14,10 @@
                 <a href="/map">CENTER MAP</a>
             </div>
             <div class="col-md-3">
-                <a href="/map">ALPHABETICAL</a>
+                <a href="#">ALPHABETICAL</a>
             </div>
             <div class="col-md-3">
-                <a href="/map">CATEGORIES</a>
+                <a href="#">CATEGORIES</a>
             </div>
         </div>
     </div>

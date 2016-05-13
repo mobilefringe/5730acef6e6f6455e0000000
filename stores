@@ -30,8 +30,8 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        show_content();
         loadMallDataCached(renderPage);
+        show_content();
     })
     
     function renderPage(){

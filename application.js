@@ -48,7 +48,7 @@ function renderFeatureItems(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderStoreList(container, template, collection, type){
+function renderStoreList(container, template, template2, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

@@ -231,11 +231,11 @@ function renderPromotions(container, template, collection){
         }
         else{
             val.store_name = site_json.name;
-            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+            val.image_url = site_json.default_image;
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";;
+            val.image_url  = site_json.default_image ;
         }
         
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");

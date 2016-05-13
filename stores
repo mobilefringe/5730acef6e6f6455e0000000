@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="row" class="content_container">
+    <div class="row content_container">
         <div id="store_list_container" class="col-md-6">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <span style="{{show}}" class="store_initial">{{initial}}</span>

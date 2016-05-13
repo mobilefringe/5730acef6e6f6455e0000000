@@ -15,7 +15,7 @@ function init(e){
 }
 
 function show_content(){
-    $('.custom_backdrop').remove()
+    $('.custom_backdrop').remove();
 }
 
 function show_cat_stores(){

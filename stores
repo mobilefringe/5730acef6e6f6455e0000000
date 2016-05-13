@@ -18,7 +18,10 @@
                 <a href="#">ALPHABETICAL</a>
             </div>
             <div class="col-md-2">
-                <a href="#">CATEGORIES <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463153622000/chevron_down.png" class="category_icon" alt=""></a>
+                <a href="#">
+                    CATEGORIES
+                    <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
+                </a>
             </div>
         </div>
     </div>

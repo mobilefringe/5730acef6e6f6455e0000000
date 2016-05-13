@@ -24,7 +24,7 @@
                 </a>
                 <div class="categories_container">
                     <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
-                        <script id="category_template_phone" type="x-tmpl-mustache/text">
+                        <script id="category_template" type="x-tmpl-mustache/text">
                             <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
                         </script>
                     </ul>

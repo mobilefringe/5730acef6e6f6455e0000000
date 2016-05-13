@@ -238,8 +238,8 @@ function renderPromotions(container, template, collection){
             val.image_url  = site_json.default_image ;
         }
         
-        var show_date = new Date (val.show_on_web_date + "T08:00:00Z");
-        start = new Date (val.start_date + "T08:00:00Z");
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
+        start = new Date (val.start_date + site_json.time_zone);
         end = new Date (val.end_date + "T08:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {

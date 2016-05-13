@@ -238,9 +238,9 @@ function renderPromotions(container, template, collection){
             val.image_url  = site_json.default_image ;
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T08:00:00Z");
+        start = new Date (val.start_date + "T08:00:00Z");
+        end = new Date (val.end_date + "T08:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    

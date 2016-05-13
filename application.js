@@ -120,7 +120,7 @@ function renderGeneral(container, template, collection){
 }
 
 
-function renderStoreDetails(container, template, collection, slug){
+function renderStoreDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

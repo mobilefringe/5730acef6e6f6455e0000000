@@ -31,5 +31,10 @@
     $(document).ready(function(e){
         init(e);
         show_content();
+        loadMallDataCached(renderPage);
     })
+    
+    function renderPage(){
+        
+    }
 </script>

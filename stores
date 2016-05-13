@@ -35,6 +35,6 @@
     })
     
     function renderPage(){
-        
+        var stores = getStoresList();
     }
 </script>

@@ -59,5 +59,6 @@
     function renderPage(){
         var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores");
     }
 </script>

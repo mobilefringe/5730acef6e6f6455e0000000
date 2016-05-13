@@ -306,6 +306,9 @@ body{
     font-size: 40px;
     color: #FFFFFF;
     text-shadow: -1px 2px 4px rgba(0,0,0,0.50);
+    padding-bottom: 22px;
+    padding-top: 82px;
+    margin: 0;
 }
 
 

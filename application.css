@@ -339,6 +339,11 @@ body{
         font-size: 22px;
         color: #4B4B4B;
     }
+    span{
+        font-family: Avenir-Book;
+        font-size: 14px;
+        color: #979797;
+    }
 }
 
 

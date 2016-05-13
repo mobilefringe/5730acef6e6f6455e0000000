@@ -25,6 +25,7 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
+        show_content
     })
     
     function renderPage(){

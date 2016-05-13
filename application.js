@@ -93,9 +93,7 @@ function renderStoreList(container, template, collection, type){
         else{
             val.promotion_exist = "display:none";
         }
-        if(val.phone.length < 1){
-            val.phone_exist = "display:none";
-        }
+        
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();

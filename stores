@@ -15,7 +15,7 @@
             </div>
             <div class="col-md-4">
                 <span>Sort By: </span>
-                <a href="#">ALPHABETICAL</a>
+                <a href="#" class="show_all_stores">ALPHABETICAL</a>
             </div>
             <div class="col-md-2">
                 <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

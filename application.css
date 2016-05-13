@@ -320,6 +320,12 @@ body{
     border-bottom:2px solid #979797;
     .col-md-3{
         text-align:center;
+        &:nth-child(2){
+            border-right: 1px solid #979797;   
+        }
+        &:nth-child(3){
+            border-left: 1px solid #979797;
+        }
     }
 }
 

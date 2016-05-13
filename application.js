@@ -172,6 +172,51 @@ function renderStoreDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
+function renderStoreDetailsHours(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        switch(val.day_of_week) {
+            case 0:
+                val.day = "Sunday";
+                break;
+            case 1:
+                val.day = "Monday";
+                break;
+            case 2:
+                val.day = "Tuesday";
+                break;
+            case 3:
+                val.day = "Wednesday";
+                break;
+            case 4:
+                val.day = "Thursday";
+                break;
+            case 5:
+                val.day = "Friday";
+                break;
+            case 6:
+                val.day = "Saturday";
+                break;
+            
+        }
+        var open_time = new Date (val.open_time);
+        var close_time = new Date (val.close_time);
+        val.open_time = convert_hour(open_time);
+        val.close_time = convert_hour(close_time);
+        if (val.is_closed == true){
+            val.hour_string = "Closed"
+        } else {
+            val.hour_string = val.open_time + " - " + val.close_time;
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 
 
 

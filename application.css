@@ -296,7 +296,9 @@ body{
 
 
 .header_banner{
-    background:url(http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463150657000/sample_banner1920x450.png);
+    background-image:url(http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463150657000/sample_banner1920x450.png);
+    background-size:cover;
+    background-position:50%;
 }
 
 

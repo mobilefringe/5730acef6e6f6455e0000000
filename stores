@@ -1,3 +1,5 @@
 <div class="header_banner">
-    <h4 class="header_banner_heading">Directory</h4>
+    <div class="main_container">
+        <h4 class="header_banner_heading">Directory</h4>
+    </div>
 </div>

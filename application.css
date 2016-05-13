@@ -328,6 +328,11 @@ body{
             border-left: 1px solid #979797;
         }
     }
+    a{
+    font-family: Avenir-Medium;
+    font-size: 22px;
+    color: #4B4B4B;
+    }
 }
 
 

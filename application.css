@@ -343,7 +343,15 @@ body{
         color: #4B4B4B;
         &:after{
             content:" ";
-            
+            background: #layout_color;
+            display: block;
+            height: 5px;
+            width: 120px;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10px;
         }
     }
     span{

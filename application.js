@@ -247,7 +247,7 @@ function renderPromotions(container, template, collection){
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         } else {
-            val.dates = "Starts" + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
+            val.dates = "Starts " + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

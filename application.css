@@ -301,6 +301,14 @@ body{
     background-position:50%;
 }
 
+.header_banner_heading{
+    font-weight:bold;
+    font-family: Georgia;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: -1px 2px 4px rgba(0,0,0,0.50);
+}
+
 
 
 

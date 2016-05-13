@@ -16,6 +16,7 @@ function init(e){
 
 function show_content(){
     $('.custom_backdrop').remove();
+    $('.yield').fadeIn();
 }
 
 function show_cat_stores(){

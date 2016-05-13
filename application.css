@@ -341,6 +341,10 @@ body{
         font-family: Avenir-Medium;
         font-size: 22px;
         color: #4B4B4B;
+        &:after{
+            content:" ";
+            
+        }
     }
     span{
         font-family: Avenir-Book;

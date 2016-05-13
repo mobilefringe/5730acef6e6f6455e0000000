@@ -128,7 +128,7 @@ function renderStoreDetails(container, template, collection){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = site.json.default_image;
+            val.alt_store_front_url = site_json.default_image;
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }

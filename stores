@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="">
-        <div id="store_list_container">
+        <div id="store_list_container" class="row">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <span style="{{show}}" class="store_initial">{{initial}}</span>
                 <div class="row cats_row" data-cat="{{cat_list}}">

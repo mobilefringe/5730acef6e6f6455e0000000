@@ -234,6 +234,7 @@ function renderPromotions(container, template, collection){
         
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.image_url  = site_json.default_image ;
+            val.promo_image = "display:none"
         }
         
         

@@ -31,6 +31,9 @@
         </div>
     </div>
     <div class="row content_container">
+        <div class="col-md-12">
+            <span class="store_initial hidden_now" id="cat_name" style="display: block;">Children's Fashion</span>
+        </div>
         <div id="store_list_container" class="col-md-6">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <span style="{{show}}" class="store_initial">{{initial}}</span>

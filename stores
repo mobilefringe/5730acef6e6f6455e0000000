@@ -54,6 +54,8 @@
         init(e);
         loadMallDataCached(renderPage);
         show_content();
+        $('#category_container_phone').prepend('<li href="#" class="show_all_stores">All</li>');
+        show_cat_stores();
     })
     
     function renderPage(){

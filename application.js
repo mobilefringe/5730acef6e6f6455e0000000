@@ -240,7 +240,7 @@ function renderPromotions(container, template, collection){
         
         var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         start = new Date (val.start_date + site_json.time_zone);
-        end = new Date (val.end_date + "T08:00:00Z");
+        end = new Date (val.end_date + ");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    

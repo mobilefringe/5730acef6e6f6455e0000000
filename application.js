@@ -48,11 +48,10 @@ function renderFeatureItems(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderStoreList(container, template, template2, collection, type){
+function renderStoreList(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
-    var template_html2 = $(template2).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
     $.each( collection , function( key, val ) {

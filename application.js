@@ -304,17 +304,13 @@ function renderEvents(container, template, collection){
             val.store_name = site_json.name;
             val.image_url = site_json.default_image;
         }
-        if(val.event_image_url_abs.indexOf('missing.png') < 0){
-            val.logo = val.event_image_url_abs;
+        
+        if(val.promo_image_url_abs.indexOf('missing.png') > 0){
+            val.promo_image_url_abs  = site_json.default_image ;
+            val.promo_image = "display:none";
+            val.full_width = "width:100%"
         }
-        else{
-            if(val.image_url.indexOf('missing.png') < 0){
-                val.logo = val.image_url;
-            }
-            else{
-                val.logo = site_json.default_image;
-            }
-        }
+        
         var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         start = new Date (val.start_date + site_json.time_zone);
         end = new Date (val.end_date + site_json.time_zone);

@@ -13,7 +13,7 @@
                 <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to list</a>
                 <img src="http://placehold.it/620x400" class="map_container" />
                 <p class="colored_link">{{name}}</p>
-                <h3 class="publish_date"><span class="promotion_parent">{{store_name}} | </span>{{dates}}</h3>
+                <h3 class="publish_date"><span class="promo_store_name">{{store_name}} | </span>{{dates}}</h3>
                 <div class="details_desc">{{{rich_description}}}</div>
             </script>
         </div>

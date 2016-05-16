@@ -79,7 +79,6 @@
             } 
         });
         if( published_events.length > 0){
-            console.log("herer")
             renderEvents("#events_container","#events_template", published_events);
         }
         else{

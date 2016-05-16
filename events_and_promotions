@@ -78,5 +78,22 @@
         if( published_events.length > 0){
             renderEvents("#events_container","#events_template", published_events);
         }
+        
+        
+        var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+        var published_promos = [];
+        $.each( store_promos , function( key, val ){
+            today = new Date();
+            webDate = new Date(val.show_on_web_date)
+            if (today >= webDate) {
+                published_promos.push(val)
+            } 
+        });
+        if( published_promos.length > 0){
+            renderPromotions("#promos_container","#promos_template", published_promos);
+        }
+        else{
+            $('#promotions_header').hide();
+        }
     }
 </script>

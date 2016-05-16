@@ -13,7 +13,7 @@
             <img src="http://placehold.it/620x400" class="map_container" />
             <p class="colored_link">{{name}}</p>
             <h3 class="publish_date">{{dates}}</h3>
-            <div class="details_desc">{{{description_short}}}</div>
+            <div class="details_desc">{{{rich_description}}}</div>
         </div>
     </div>
 </div>

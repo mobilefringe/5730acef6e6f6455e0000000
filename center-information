@@ -9,7 +9,7 @@
             <img src="http://placehold.it/220x600" />
         </div>
         <div class="details_col_9">
-            
+            <div id="mm_page_content" class="details_desc"></div>
         </div>
     </div>
 </div>

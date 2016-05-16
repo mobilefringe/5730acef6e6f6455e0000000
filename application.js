@@ -261,7 +261,7 @@ function renderPromotions(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPromoDetails(container, template, collection){
+function renderPromotionDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

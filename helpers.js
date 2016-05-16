@@ -21,6 +21,10 @@ function init(e){
 function show_content(){
     $('.custom_backdrop').remove();
     $('.yield').fadeIn();
+    $('.accordion_header').click(function(e){
+        alert("yo")
+        $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+	});
 }
 
 function show_cat_stores(){

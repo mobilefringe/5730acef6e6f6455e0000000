@@ -238,7 +238,6 @@ function renderPromotions(container, template, collection){
             val.full_width = "width:100%"
         }
         
-        console.log(val.description.length > 100)
         if(val.description.length > 100){
             val.description_short = val.description[100]
         }

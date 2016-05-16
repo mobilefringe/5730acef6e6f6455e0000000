@@ -375,7 +375,7 @@ function renderEvents(container, template, collection){
 }
 
 
-function renderPromotionDetails(container, template, collection){
+function renderEventDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

@@ -23,7 +23,6 @@
     })
     
     function renderPage(){
-        function renderPage(){
         prefix = get_prefix();
         var pages_json = prefix+ "/pages/district-location.json"
         $.getJSON(pages_json).done(function(data) {
@@ -33,6 +32,5 @@
                 $("#404_msg").fadeIn("fast");
             }
         }); 
-    }
     }
 </script>

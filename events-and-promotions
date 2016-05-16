@@ -79,6 +79,7 @@
             renderEvents("#events_container","#events_template", published_events);
         }
         else{
+            $('#events_header').click()
             $('#events_container').text('Currently we have no Events, but check back soon!')
         }
         

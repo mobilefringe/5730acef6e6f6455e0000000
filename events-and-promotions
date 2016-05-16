@@ -17,6 +17,7 @@
                 <div class="store_desc" id="events_container">
                     <div class="store_desc" id="no_events">
                         Currently we have no Events, but check back soon!
+                        <hr class="promo_separator" />
                     </div>
                     <script id="events_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">

@@ -97,6 +97,7 @@
             renderPromotions("#promos_container","#promos_template", published_promos);
         }
         else{
+            $('#promotions_header').click()
             $('#promotions_header').hide();
         }
     }

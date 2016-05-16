@@ -240,10 +240,10 @@ function renderPromotions(container, template, collection){
         
         console.log(val.description.length > 100)
         if(val.description.length > 100){
-            description_short = val.description[100]
+            val.description_short = val.description[100]
         }
         else{
-            description_short = val.description
+            val.description_short = val.description
         }
         
         var show_date = new Date (val.show_on_web_date + site_json.time_zone);

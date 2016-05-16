@@ -14,6 +14,7 @@ function init(e){
     }
     
     $('.accordion_header').click(function(e){
+        alert()"f"
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});
 }

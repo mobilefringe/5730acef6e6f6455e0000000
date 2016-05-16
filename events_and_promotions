@@ -36,7 +36,7 @@
     </div>
     <hr class="promo_separator" />
 </script>
-<!-- End Promotions Template -->
+<!-- End Events Template -->
 
 <script>
     $(document).ready(function(e){

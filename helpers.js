@@ -13,10 +13,7 @@ function init(e){
         feed.run();
     }
     
-    $('.accordion_header').click(function(e){
-        alert("yo")
-        $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
-	});
+    
 }
 
 

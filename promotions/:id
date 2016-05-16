@@ -9,9 +9,7 @@
             <img src="http://placehold.it/220x600" />
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                Events
-            </h5>
+            
         </div>
     </div>
 </div>

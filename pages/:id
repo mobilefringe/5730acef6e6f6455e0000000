@@ -1,6 +1,6 @@
 <div class="header_banner">
     <div class="main_container">
-        <h4 class="header_banner_heading">Centre Information</h4>
+        <h4 class="header_banner_heading" >Centre Information</h4>
     </div>
 </div>
 <div class="main_container">
@@ -28,6 +28,7 @@
         prefix = get_prefix();
         var pages_json = prefix+"/pages/" + slug + ".json"
         $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_title').html(data.title);
             $('#mm_page_content').html(data.body);
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {

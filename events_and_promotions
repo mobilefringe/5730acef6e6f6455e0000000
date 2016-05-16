@@ -38,7 +38,23 @@
                 <i class="fa fa-chevron-up pull-right"></i>
             </h5>
             <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
-                <div class="store_desc" id="promos_container"></div>
+                <div class="store_desc" id="promos_container">
+                    <script id="promos_template" type="x-tmpl-mustache/text">
+                        <div class="promo_row">
+                            <div class="promo_col_3" style="{{promo_image}}">
+                                <img src="{{promo_image_url_abs}}" alt="Promotion" class="" />
+                            </div>
+                            <div class="promo_col_9" style="{{full_width}}">
+                                <p class="colored_link">{{name}}</p>
+                                <h3 class="publish_date">{{dates}}</h3>
+                                <div class="details_desc">{{description_short}}</div>
+                                <a href="/promotions/{{slug}}" class="read_more">Read More</a>
+                            </div>
+                        </div>
+                        <hr class="promo_separator" />
+                    </script>
+                    <!-- End Promotions Template -->
+                </div>
             </div>
         </div>
     </div>

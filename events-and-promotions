@@ -79,7 +79,7 @@
             renderEvents("#events_container","#events_template", published_events);
         }
         else{
-            $('#events_container').text('Currently we have no (Promotion/Events), but check back soon!')
+            $('#events_container').text('Currently we have no Events, but check back soon!')
         }
         
         

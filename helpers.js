@@ -12,7 +12,13 @@ function init(e){
         });
         feed.run();
     }
+    
+    $('.accordion_header').click(function(e){
+        $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
+	});
 }
+
+
 
 function show_content(){
     $('.custom_backdrop').remove();

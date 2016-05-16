@@ -239,8 +239,8 @@ function renderPromotions(container, template, collection){
         }
         
         
-        if(val.description.length > 100){
-            val.description_short = val.description.substring(0,100)
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0, 200)
         }
         else{
             val.description_short = val.description

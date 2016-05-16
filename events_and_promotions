@@ -3,6 +3,12 @@
         <h4 class="header_banner_heading">Events & Promotions</h4>
     </div>
 </div>
+<div class="details_row">
+    <div class="details_col_3">
+    </div>
+    <div class="details_col_3">
+    </div>
+</div>
 
 <script>
     $(document).ready(function(e){

@@ -30,7 +30,6 @@
                         </div>
                         <hr class="promo_separator" />
                     </script>
-                    <!-- End Events Template -->
                 </div>
             </div>
             <h5 id="promotions_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">

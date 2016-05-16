@@ -38,7 +38,7 @@
             } 
         });
         if( published_events.length > 0){
-            renderPromotions("#promos_container","#promos_template", published_promos);
+            renderPromotions("#events_container","#promos_template", published_events);
         }
     }
 </script>

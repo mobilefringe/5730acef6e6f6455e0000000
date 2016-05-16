@@ -80,7 +80,7 @@
         }
         
         
-        var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+        var promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
         var published_promos = [];
         $.each( store_promos , function( key, val ){
             today = new Date();

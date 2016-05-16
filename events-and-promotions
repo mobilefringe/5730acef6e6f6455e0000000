@@ -83,7 +83,7 @@
         }
         else{
             $('#events_header').click()
-            $('#events_container').text('')
+            $('#no_events').show()
         }
         
         

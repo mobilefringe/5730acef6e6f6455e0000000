@@ -1,0 +1,36 @@
+<div class="header_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading">Centre Information</h4>
+    </div>
+</div>
+<div class="main_container">
+    <div class="details_row">
+        <div class="details_col_3">
+            <img src="http://placehold.it/220x600" />
+        </div>
+        <div class="details_col_9">
+            <div id="mm_page_content" class="details_desc"></div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+        show_content();
+    })
+    
+    function renderPage(){
+        prefix = get_prefix();
+        var pages_json = prefix+ "/pages/district-center-information.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+    }
+</script>

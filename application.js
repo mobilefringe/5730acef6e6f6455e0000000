@@ -240,7 +240,7 @@ function renderPromotions(container, template, collection){
         
         
         if(val.description.length > 100){
-            val.description_short = val.description[100]
+            val.description_short = val.description.substring(0,100)
             console.log(val.description_short)
         }
         else{

@@ -9,7 +9,7 @@
             <img src="http://placehold.it/220x600" />
         </div>
         <div class="details_col_9">
-            <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> Back to list</a>
+            <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to list</a>
         </div>
     </div>
 </div>

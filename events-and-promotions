@@ -15,6 +15,9 @@
             </h5>
             <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                 <div class="store_desc" id="events_container">
+                    <div class="store_desc hidden_now" id="no_events">
+                        Currently we have no Events, but check back soon!
+                    </div>
                     <script id="events_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">
                             <div class="promo_col_3" style="{{promo_image}}">
@@ -36,9 +39,6 @@
                 <i class="fa fa-chevron-up pull-right"></i>
             </h5>
             <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
-                <div class="store_desc hidden_now" id="no_events">
-                    Currently we have no Events, but check back soon!
-                </div>
                 <div class="store_desc" id="promos_container">
                     <script id="promos_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">

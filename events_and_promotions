@@ -15,7 +15,6 @@
             </h5>
             <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                 <div class="store_desc" id="events_container">
-                    <!-- Events Template -->
                     <script id="events_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">
                             <div class="promo_col_3" style="{{promo_image}}">

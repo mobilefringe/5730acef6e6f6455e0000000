@@ -37,7 +37,7 @@
             </h5>
             <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                 <div class="store_desc" id="no_events">
-                    
+                    Currently we have no Events, but check back soon!
                 </div>
                 <div class="store_desc" id="promos_container">
                     <script id="promos_template" type="x-tmpl-mustache/text">

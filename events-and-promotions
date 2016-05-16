@@ -82,6 +82,7 @@
             renderEvents("#events_container","#events_template", published_events);
         }
         else{
+            console.log("herer")
             $('#events_header').click()
         }
         

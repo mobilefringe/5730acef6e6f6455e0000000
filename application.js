@@ -273,7 +273,7 @@ function renderJobs(container, template, collection){
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Dixie Outlet";
+            val.store_name = site_json.name;
         }
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();

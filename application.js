@@ -277,7 +277,11 @@ function renderJobs(container, template, collection){
         }
         var show_date = new Date (val.show_on_web_date  + site_json.time_zone);
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
-        
+        if (start.toDateString() == end.toDateString()) {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+        } else {
+            val.dates = "Starts " + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

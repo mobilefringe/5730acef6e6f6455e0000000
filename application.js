@@ -305,8 +305,8 @@ function renderEvents(container, template, collection){
             val.image_url = site_json.default_image;
         }
         
-        if(val.promo_image_url_abs.indexOf('missing.png') > 0){
-            val.promo_image_url_abs  = site_json.default_image ;
+        if(val.event_image_url_abs.indexOf('missing.png') > 0){
+            val.event_image_url_abs  = site_json.default_image ;
             val.promo_image = "display:none";
             val.full_width = "width:100%"
         }

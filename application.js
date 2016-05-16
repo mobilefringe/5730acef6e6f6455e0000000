@@ -312,7 +312,7 @@ function renderEvents(container, template, collection){
                 val.logo = val.image_url;
             }
             else{
-                val.logo = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+                val.logo = site_json.default_image;
             }
         }
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");

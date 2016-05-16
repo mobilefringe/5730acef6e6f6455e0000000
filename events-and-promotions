@@ -103,9 +103,9 @@
         });
         if( published_promos.length > 0){
             renderPromotions("#promos_container","#promos_template", published_promos);
+            $('#no_promotions').hide()
         }
         else{
-            $('#no_promotions').hide()
             $('#promotions_header').click();
             $('#promotions_header').find('i').toggleClass('fa-chevron-down fa-chevron-up');
         }

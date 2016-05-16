@@ -82,7 +82,7 @@
         
         var promos = getPromotionsList().sortBy(function(o){ return o.start_date });
         var published_promos = [];
-        $.each( store_promos , function( key, val ){
+        $.each( promos , function( key, val ){
             today = new Date();
             webDate = new Date(val.show_on_web_date)
             if (today >= webDate) {

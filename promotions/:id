@@ -32,6 +32,6 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         promo_details = getPromotionDetailsBySlug(slug);
-        renderPromoDetails('#promotion_details_container', '#promotion_details_template', promo_details)
+        renderProms('#promotion_details_container', '#promotion_details_template', promo_details)
     }
 </script>

@@ -29,9 +29,6 @@
     })
     
     function renderPage(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
-        event_details = getEventDetailsBySlug(slug);
-        renderEventDetails('#event_details_container', '#event_details_template', event_details)
+        
     }
 </script>

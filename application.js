@@ -311,6 +311,13 @@ function renderEvents(container, template, collection){
             val.full_width = "width:100%"
         }
         
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0, 200)
+        }
+        else{
+            val.description_short = val.description
+        }
+        
         var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         start = new Date (val.start_date + site_json.time_zone);
         end = new Date (val.end_date + site_json.time_zone);

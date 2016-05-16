@@ -83,7 +83,7 @@
             renderEvents("#events_container","#events_template", published_events);
         }
         else{
-            
+            console.log("yo")
             $('#events_header').click()
         }
         

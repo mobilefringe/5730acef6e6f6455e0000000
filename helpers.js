@@ -29,7 +29,8 @@ function show_content(){
 	
 	$('.open_stores').click(function(e){
 	    var initial = $(this).attr('data-initial')
-	    $('.open_' + initial).slideToggle()
+	    $('.open_' + initial).slideToggle();
+	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
 
 }

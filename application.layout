@@ -48,9 +48,9 @@
     <header class="main_container main_nav">
         <div>
             <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
-            <div class="mobile_menu">
+            <ul class="mobile_menu">
                 
-            </div>
+            </ul>
         </div>
         <div class="row">
             <div class="logo_container">

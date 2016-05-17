@@ -48,7 +48,13 @@
     <header class="main_container main_nav">
         <div class="row">
             <div class="logo_container">
-                <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>
+                <div class="row">
+                    <div class="col-xs-3">
+                        
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>
+                    </div>
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">

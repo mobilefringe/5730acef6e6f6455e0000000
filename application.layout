@@ -92,6 +92,8 @@
             <div class="footer_col">
                 <h5 class="heading">HOURS</h5>
                 <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462813387000/clock.png" class="hours_clock" alt="hours clock">
+                
+                <hr class="mobile_separator" />
             </div>
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>

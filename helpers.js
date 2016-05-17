@@ -66,6 +66,7 @@ function show_cat_stores(){
                $(val).show();
            } 
         });
+        
         $('#cat_name').hide();
         e.preventDefault();
     });

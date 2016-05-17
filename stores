@@ -7,6 +7,7 @@
 <div class="main_container mobile_padding">
     <div class="visible_phone">
         <a class="mobile_header" href="/map">Center Map</a>
+        <a class="mobile_header" href="#">Center Map</a>
     </div>
     <div class="store_nav hidden_phone">
         <div class="row">

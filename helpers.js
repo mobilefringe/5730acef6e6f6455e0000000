@@ -14,7 +14,7 @@ function init(e){
     }
     
     $('.open_menu').click(function(){
-        
+        $('.mobile_menu').slideToggle();
     })
 }
 

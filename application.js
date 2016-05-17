@@ -72,6 +72,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
             val.show = "display:none;";
         }
         else{
+            val.data_initial = current_initial;
             val.initial = current_initial;
             store_initial = current_initial;
             val.show = "display:block;";

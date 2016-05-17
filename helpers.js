@@ -63,6 +63,9 @@ function show_cat_stores(){
         if ($(window).width() > 768){
             rows.show();
         }
+        else{
+            rows.hide();
+        }
         $.each($('.store_initial'), function(i, val){
            if ($(val).text().trim().length > 0){
                $(val).show();

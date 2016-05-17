@@ -29,6 +29,7 @@ function show_content(){
 	
 	$('.open_stores').click(function(e){
 	    var initial = $(this).attr('data-initial')
+	    
 	})
 
 }

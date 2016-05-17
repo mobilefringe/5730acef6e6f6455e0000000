@@ -49,7 +49,11 @@
         <div>
             <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
             <ul class="mobile_menu">
-                
+                <li>DIRECTORY</li>
+                <li>EVENTS & PROMOTIONS</li>
+                <li>DINE</li>
+                <li>LOCATION</li>
+                <li>CENTER INFORMATION</li>
             </ul>
         </div>
         <div class="row">

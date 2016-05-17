@@ -26,6 +26,10 @@ function show_content(){
     $('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});
+	
+	$('.open_stores').click(function(e){
+	    var initial = $(this).attr('data-initial')
+	})
 
 }
 

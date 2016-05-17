@@ -49,7 +49,7 @@
         <div class="row">
             <div class="logo_container">
                 <div class="row">
-                    <div class="col-xs-2 visible_phone">
+                    <div class="col-xs-2 visible_phone mobile_menu">
                         <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu" alt="open menu">
                     </div>
                     <div class="col-xs-8 col-md-12">

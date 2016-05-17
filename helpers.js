@@ -13,7 +13,9 @@ function init(e){
         feed.run();
     }
     
-    
+    $('.open_menu').click(function(){
+        
+    })
 }
 
 

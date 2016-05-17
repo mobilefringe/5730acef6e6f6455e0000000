@@ -36,7 +36,7 @@
         </div>
         <div id="store_list_container" class="col-md-6">
             <script id="store_list_template" type="x-tmpl-mustache/text">
-                <span style="{{show}}" class="store_initial">{{initial}}</span>
+                <span style="{{show}}" class="store_initial" data-initial="{{initial}}">{{initial}}</span>
                 <div class="row cats_row open_{{initial}}" data-cat="{{cat_list}}">
                     <div class="col-md-12">
                         <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>

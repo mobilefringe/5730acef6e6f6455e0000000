@@ -50,7 +50,7 @@
             <div class="logo_container">
                 <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>
             </div>
-            <div class="nav_container">
+            <div class="nav_container hidden_phone">
                 <div class="social_links">
                     <a href="#" target="_blank">
                         <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809741000/facebook.png" class="" alt="fb">

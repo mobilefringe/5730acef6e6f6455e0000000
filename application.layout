@@ -47,40 +47,38 @@
 <body>
     <header class="main_container main_nav">
         <div class="row">
-            <div class="col-md-12">
-                <div class="logo_container">
-                    <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>
+            <div class="logo_container">
+                <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>
+            </div>
+            <div class="nav_container hidden_phone">
+                <div class="social_links">
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809741000/facebook.png" class="" alt="fb">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809758000/twitter.png" class="" alt="twitter">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809752000/pinterest.png" class="" alt="pinterest">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809767000/instagram.png" class="" alt="instagram">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809881000/you_tube.png" class="" alt="youtube">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809889000/google_plus.png" class="" alt="google plus">
+                    </a>
                 </div>
-                <div class="nav_container hidden_phone">
-                    <div class="social_links">
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809741000/facebook.png" class="" alt="fb">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809758000/twitter.png" class="" alt="twitter">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809752000/pinterest.png" class="" alt="pinterest">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809767000/instagram.png" class="" alt="instagram">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809881000/you_tube.png" class="" alt="youtube">
-                        </a>
-                        <a href="#" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809889000/google_plus.png" class="" alt="google plus">
-                        </a>
-                    </div>
+                <div class="clearfix"></div>
+                <div class="top_menu">
+                    <a href="#">Directory</a>
+                    <a href="#">Events & Promotions</a>
+                    <a href="#">Dine</a>
+                    <a href="#">Location</a>
+                    <a href="#">Center Information</a>
                     <div class="clearfix"></div>
-                    <div class="top_menu">
-                        <a href="#">Directory</a>
-                        <a href="#">Events & Promotions</a>
-                        <a href="#">Dine</a>
-                        <a href="#">Location</a>
-                        <a href="#">Center Information</a>
-                        <div class="clearfix"></div>
-                    </div>
                 </div>
             </div>
         </div>

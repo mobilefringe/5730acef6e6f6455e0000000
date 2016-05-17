@@ -50,7 +50,7 @@
             <div class="logo_container">
                 <div class="row">
                     <div class="col-xs-2 visible_phone">
-                        
+                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="" alt="">
                     </div>
                     <div class="col-xs-8 col-md-12">
                         <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>

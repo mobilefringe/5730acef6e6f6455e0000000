@@ -49,7 +49,7 @@
         <div>
             <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
             <ul class="mobile_menu">
-                <li><a href="#">DIRECTORY</a></li>
+                <li><a href="/stores">DIRECTORY</a></li>
                 <li><a href="#">EVENTS & PROMOTIONS</a></li>
                 <li><a href="#">DINE</a></li>
                 <li><a href="#">LOCATION</a></li>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="top_menu">
-                    <a href="#">Directory</a>
+                    <a href="/stores">Directory</a>
                     <a href="#">Events & Promotions</a>
                     <a href="#">Dine</a>
                     <a href="#">Location</a>

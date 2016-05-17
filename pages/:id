@@ -5,7 +5,7 @@
 </div>
 <div class="main_container">
     <div class="details_row">
-        <div class="details_col_3">
+        <div class="details_col_3 hidden_phone">
             <img src="http://placehold.it/220x600" />
         </div>
         <div class="details_col_9">

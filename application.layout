@@ -113,7 +113,7 @@
         </div>
     </section>
     <section class="copyright_footer main_container">
-        <div class="row">
+        <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
                     © Copyright 2016 The District at Green Valley Ranch

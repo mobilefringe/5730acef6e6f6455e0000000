@@ -46,6 +46,7 @@
 
 <body>
     <header class="main_container main_nav">
+        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu" alt="open menu">
         <div class="row">
             <div class="logo_container">
                 <a href="/"><img src="http://placehold.it/300x66" class="main_logo" /></a>

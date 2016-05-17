@@ -39,7 +39,7 @@
         </div>
         <div id="store_list_container" class="col-md-6">
             <script id="store_list_template" type="x-tmpl-mustache/text">
-                <span style="{{show}}" class="store_initial open_stores" data-initial="{{initial}}">
+                <span style="{{show}}" class="store_initial open_stores" data-initial="{{data-initial}}">
                     {{initial}}
                     <i class="fa fa-chevron-down visible_phone pull-right"></i>
                 </span>

@@ -62,8 +62,10 @@ function show_cat_stores(){
         var rows = $('.cats_row');
         rows.show();
         $.each($('.store_initial'), function(i, val){
+            console.log($(val).text())
            if ($(val).text().length > 0){
                $(val).show();
+
            } 
         });
         $('#cat_name').hide();

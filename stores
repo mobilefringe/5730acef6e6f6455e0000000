@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<div class="main_container">
+<div class="main_container mobile_padding">
     <div class="store_nav hidden_phone">
         <div class="row">
             <div class="col-md-3">

@@ -63,7 +63,7 @@ function show_cat_stores(){
         rows.show();
         $.each($('.store_initial'), function(i, val){
             console.log($(val).text().trim())
-           if ($(val).text().length > 0){
+           if ($(val).text().trim().length > 0){
                $(val).show();
 
            } 

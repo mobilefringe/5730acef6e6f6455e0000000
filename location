@@ -3,7 +3,7 @@
         <h4 class="header_banner_heading">Location</h4>
     </div>
 </div>
-<div class="main_container">
+<div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3">
             <p class="colored_link" style="">Office Phone Number</p>

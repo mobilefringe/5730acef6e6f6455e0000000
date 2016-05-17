@@ -12,7 +12,7 @@ function init(e){
         });
         feed.run();
     }
-    	$('.open_menu').click(function(e){
+    $('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();
         e.preventDefault()
     })

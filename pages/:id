@@ -3,7 +3,7 @@
         <h4 class="header_banner_heading" id="mm_page_title"></h4>
     </div>
 </div>
-<div class="main_container">
+<div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
             <img src="http://placehold.it/220x600" />

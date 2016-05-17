@@ -64,7 +64,6 @@ function show_cat_stores(){
         $.each($('.store_initial'), function(i, val){
            if ($(val).text().trim().length > 0){
                $(val).show();
-
            } 
         });
         $('#cat_name').hide();

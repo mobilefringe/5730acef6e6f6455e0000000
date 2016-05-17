@@ -22,9 +22,9 @@ function show_content(){
     $('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});
-	$('.open_menu').click(function(){
-	    alert('yo')
+	$('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();
+        e.preventDefault(0)
         
     })
 }

@@ -60,7 +60,7 @@ function show_cat_stores(){
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
-        if ($(window).width() > 768px){
+        if ($(window).width() > 768){
             rows.show();
         }
         $.each($('.store_initial'), function(i, val){

@@ -114,7 +114,7 @@
         </div>
     </section>
     <section class="copyright_footer main_container">
-        <div class="text-center show_phone">
+        <div class="text-center visible_phone">
             <p class="footer_text">
                 © Copyright 2016 The District at Green Valley Ranch
             </p>

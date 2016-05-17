@@ -27,9 +27,6 @@
                     <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
-                    <script id="category_template" type="x-tmpl-mustache/text">
-                        <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
-                    </script>
                 </ul>
             </div>
         </div>
@@ -66,6 +63,10 @@
         </div>
     </div>
 </div>
+
+<script id="category_template" type="x-tmpl-mustache/text">
+    <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
+</script>
 
 <script>
     $(document).ready(function(e){

@@ -50,7 +50,7 @@
             <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
             <ul class="mobile_menu">
                 <li><a href="/stores">DIRECTORY</a></li>
-                <li><a href="#">EVENTS & PROMOTIONS</a></li>
+                <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
                 <li><a href="#">DINE</a></li>
                 <li><a href="#">LOCATION</a></li>
                 <li><a href="#">CENTER INFORMATION</a></li>

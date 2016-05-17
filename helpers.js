@@ -23,6 +23,7 @@ function show_content(){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});
 	$('.open_menu').click(function(){
+	    alert('yo')
         $('.mobile_menu').slideToggle();
         
     })

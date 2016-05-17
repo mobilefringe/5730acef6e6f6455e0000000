@@ -24,6 +24,7 @@ function show_content(){
 	});
 	$('.open_menu').click(function(){
         $('.mobile_menu').slideToggle();
+        
     })
 }
 

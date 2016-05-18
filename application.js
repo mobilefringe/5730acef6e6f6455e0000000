@@ -411,7 +411,7 @@ function renderEventDetails(container, template, collection){
             val.description_short = val.description
         }
         
-       var show_date = new Date (val.show_on_web_date + site_json.time_zone);
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         start = new Date (val.start_date + site_json.time_zone);
         end = new Date (val.end_date + site_json.time_zone);
     

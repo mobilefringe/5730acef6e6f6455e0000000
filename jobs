@@ -55,7 +55,7 @@
             } 
         });
         if( published_jobs.length > 0){
-            renderEvents("#jobs_container","#jobs_template", published_events);
+            renderJob("#jobs_container","#jobs_template", published_events);
             $('#no_jobs').hide()
         }
         else{

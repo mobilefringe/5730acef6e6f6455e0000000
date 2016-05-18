@@ -114,12 +114,14 @@
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
                 <div class="newsletter_div">
-                    <input type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" />
-                    <button class="newsletter_btn">Subscribe</button>
-                    <label class="newsletter_label">
-                        <input id="newsletter_agree" type="checkbox" />
-                        I agree to receive newsletters from The District at the green valley ranch.
-                    </label>
+                    <form action="http://mobilefringe.createsend.com/t/d/s/kkuyhl/" method="post" id="subForm">
+                        <input type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" />
+                        <button class="newsletter_btn">Subscribe</button>
+                        <label class="newsletter_label">
+                            <input id="newsletter_agree" type="checkbox" />
+                            I agree to receive newsletters from The District at the green valley ranch.
+                        </label>
+                    </form>
                 </div>
             </div>
             <div class="footer_col hidden_phone">

@@ -53,13 +53,9 @@
                 <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
                 <li><a href="#">DINE</a></li>
                 <li><a href="/location">LOCATION</a></li>
-                <li>
-                    <a href="#" id="mobile_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTER INFORMATION</a>
-                    <ul class="">
-                    	<li><a href="#">3rd level</a></li>
-                    	<li><a href="#">3rd level</a></li>
-                    </ul>
-                </li>
+                <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
+                <li class="hidden_noe"><a hrefw"#">3rd level</a></li>
+                <li><a href="#">3rd level</a></li>
             </ul>
         </div>
         <div class="row">

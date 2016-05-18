@@ -114,7 +114,7 @@
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
                 <div class="newsletter_div">
-                    <form action="http://mobilefringe.createsend.com/t/d/s/kkuyhl/" method="post" id="subForm">
+                    <form action="http://mobilefringe.createsend.com/t/d/s/kkuyhl/" method="post" id="newsletter_form">
                         <input name="cm-kkuyhl-kkuyhl" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" />
                         <button class="newsletter_btn">Subscribe</button>
                         <label class="newsletter_label">

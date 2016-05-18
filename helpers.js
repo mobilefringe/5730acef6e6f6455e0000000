@@ -17,6 +17,11 @@ function init(e){
         e.preventDefault()
     })
     
+    $('.mobile_dd').click(function(e){
+        $('.mobile_menu').slideToggle();
+        e.preventDefault()
+    })
+    
     $('#newsletter_form').submit(function(e){
         e.preventDefault();
         if ($("#newsletter_agree").prop("checked") != true){

@@ -464,23 +464,12 @@ function renderEventDetails(container, template, collection){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if (val.eventable_type == "Store") {
-            var store_details = getStoreDetailsByID(val.eventable_id);
-            val.store_detail_btn = store_details.slug ;
-            val.store_name = store_details.name;
+        if(val.jobable_type == "Store"){
+            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
             val.store_name = site_json.name;
-        }
-        
-        if(val.event_image_url_abs.indexOf('missing.png') > 0){
-            val.event_image_url_abs  = site_json.default_image ;
-            val.promo_image = "display:none";
-            val.full_width = "width:100%"
-        }
-        
-        if(val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.promo_image_show="display:none";
         }
         if(val.description.length > 200){
             val.description_short = val.description.substring(0, 200)

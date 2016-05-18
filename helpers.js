@@ -18,7 +18,7 @@ function init(e){
     })
     
     $('.mobile_dd').click(function(e){
-        $('.mobile_menu').slideToggle();
+        $('.mobile_menu_dd').slideToggle();
         e.preventDefault()
     })
     

@@ -244,7 +244,7 @@ function renderPromotions(container, template, collection){
         
         
         if(val.description.length > 200){
-            val.description_short = val.description.substring(0, 200)
+            val.description_short = val.description.substring(0, 200) + "..."
         }
         else{
             val.description_short = val.description
@@ -357,7 +357,7 @@ function renderEvents(container, template, collection){
         }
         
         if(val.description.length > 200){
-            val.description_short = val.description.substring(0, 200)
+            val.description_short = val.description.substring(0, 200) + "..."
         }
         else{
             val.description_short = val.description
@@ -405,7 +405,7 @@ function renderEventDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         if(val.description.length > 200){
-            val.description_short = val.description.substring(0, 200)
+            val.description_short = val.description.substring(0, 200) + "..."
         }
         else{
             val.description_short = val.description
@@ -440,7 +440,7 @@ function renderJobs(container, template, collection){
             val.store_name = site_json.name;
         }
         if(val.description.length > 200){
-            val.description_short = val.description.substring(0, 200)
+            val.description_short = val.description.substring(0, 200) + "..."
         }
         else{
             val.description_short = val.description
@@ -478,7 +478,7 @@ function renderJobDetails(container, template, collection){
             val.store_name = site_json.name;
         }
         if(val.description.length > 200){
-            val.description_short = val.description.substring(0, 200)
+            val.description_short = val.description.substring(0, 200) + "..."
         }
         else{
             val.description_short = val.description

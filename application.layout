@@ -121,6 +121,9 @@
                             <input id="newsletter_agree" type="checkbox" />
                             I agree to receive newsletters from The District at the green valley ranch.
                         </label>
+                        <p class="hidden_now" id="success_subscribe">
+                            Thank you for subscribing!
+                        </p>
                     </form>
                 </div>
             </div>

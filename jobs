@@ -20,11 +20,8 @@
                         <hr class="promo_separator" />
                     </div>
                     <script id="jobs_template" type="x-tmpl-mustache/text">
-                        <div class="promo_row">
-                            <div class="promo_col_3" style="{{promo_image}}">
-                                <img src="{{event_image_url_abs}}" alt="Promotion" class="" />
-                            </div>
-                            <div class="promo_col_9" style="{{full_width}}">
+                        <div class="row">
+                            <div class="col-md-12">
                                 <p class="colored_link">{{name}}</p>
                                 <h3 class="publish_date">{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>

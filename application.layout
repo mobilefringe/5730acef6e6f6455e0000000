@@ -54,8 +54,8 @@
                 <li><a href="#">DINE</a></li>
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
-                <li class="hidden_noe"><a hrefw"#">3rd level</a></li>
-                <li><a href="#">3rd level</a></li>
+                <li class="hidden_now"><a href"#">3rd level</a></li>
+                <li class="hidden_now"><a href="#">3rd level</a></li>
             </ul>
         </div>
         <div class="row">

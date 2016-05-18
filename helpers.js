@@ -20,7 +20,7 @@ function init(e){
     $('#newsletter_form').submit(function(e){
         e.preventDefault();
         if ($("#newsletter_agree").prop("checked") != true){
-            alert("Please agree to receive newsletters from Midtown Plaza.");
+            alert("Please agree to receive newsletters from " + site_json.name + "." );
             $("#newsletter_agree").focus();
             return false;
         }

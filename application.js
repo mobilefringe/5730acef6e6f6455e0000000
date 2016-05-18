@@ -404,6 +404,12 @@ function renderEventDetails(container, template, collection){
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0, 200)
+        }
+        else{
+            val.description_short = val.description
+        }
         
        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         start = new Date (val.start_date + site_json.time_zone);

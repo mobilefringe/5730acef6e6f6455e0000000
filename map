@@ -33,14 +33,6 @@
     })
     
     function renderPage(){
-        prefix = get_prefix();
-        var pages_json = prefix+ "/pages/district-location.json"
-        $.getJSON(pages_json).done(function(data) {
-            $('#mm_page_content').html(data.body);
-        }).fail(function(jqXHR) {
-            if (jqXHR.status == 404) {
-                $("#404_msg").fadeIn("fast");
-            }
-        }); 
+       \
     }
 </script>

@@ -32,6 +32,7 @@ function init(e){
                     alert("Please try again later.");
                 } else { // 200
                     $("#success_subscribe").fadeIn()
+                    $('#success_subscribe').delay(2000).fadeOut();
                     $('#newsletter_form').trigger('reset')
                 }
             }

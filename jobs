@@ -21,7 +21,7 @@
                     </div>
                     <script id="events_template" type="x-tmpl-mustache/text">
                         <div class="row">
-                            <div class="col-md-12" style="{{full_width}}">
+                            <div class="col-md-12">
                                 <p class="colored_link">{{name}}</p>
                                 <h3 class="publish_date">{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>

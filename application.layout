@@ -86,8 +86,8 @@
                     <a href="/stores">Directory</a>
                     <a href="#">Events & Promotions</a>
                     <a href="#">Dine</a>
-                    <a href="#">Location</a>
-                    <a href="#">Center Information</a>
+                    <a href="/location">Location</a>
+                    <a href="/pages/district-center-information">Center Information</a>
                     <div class="clearfix"></div>
                 </div>
             </div>

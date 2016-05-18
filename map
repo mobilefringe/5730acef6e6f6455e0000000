@@ -4,24 +4,7 @@
     </div>
 </div>
 <div class="main_container mobile_padding">
-    <div class="details_row">
-        <div class="details_col_3">
-            <p class="colored_link" style="">Office Phone Number</p>
-            <a class="side_link" href="tel:(702) 564-8595">(702) 564-8595</a>
-            <p class="colored_link" style="">Address</p>
-            <p class="side_link">
-                2275 Village Walk Drive Henderson, Nevada 89052
-            </p>
-            <a class="main_btn block" href="https://maps.google.com/maps?ll=36.022438,-115.08492&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&daddr=2225%20Village%20Walk%20Dr%20%23171%20Henderson%2C%20NV%2089052%20USA@36.022438,-115.0849203" target="_blank" >Driving Direction</a>
-        </div>
-        <div class="details_col_9" id="event_details_container">
-            <div class="map_container">
-                <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.9121758988435!2d-115.08710898469077!3d36.02243798011613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d1dd064bed7d%3A0xdff2814b05457e09!2s2225+Village+Walk+Dr+%23171%2C+Henderson%2C+NV+89052%2C+USA!5e0!3m2!1sen!2sca!4v1463424407809" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            <div id="mm_page_content" class="details_desc"></div>
-        </div>
-    </div>
+    Coming soon
 </div>
 
 

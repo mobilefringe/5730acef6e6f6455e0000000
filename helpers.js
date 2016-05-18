@@ -31,7 +31,7 @@ function init(e){
                 if (data.Status === 400) {
                     alert("Please try again later.");
                 } else { // 200
-                    $("#success_subscribe").fadeIn().setTimeOut(function(){$("#success_subscribe").fadeOut()}, 2000);
+                    $("#success_subscribe").fadeIn()
                     $('#newsletter_form').trigger('reset')
                 }
             }

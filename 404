@@ -1,4 +1,4 @@
-<div class="error_img_div"><img src="http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/png/1448659431000/404_error_msg.png"  alt="404 page"></div>
+<div class="error_img_div"><img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463595344000/404_error_msg-1.png"  alt="404 page"></div>
 <a href="/" class="back_to_home">Go to Homepage!</a>
 <script>
     $(document).ready(function(e){

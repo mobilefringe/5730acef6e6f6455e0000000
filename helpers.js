@@ -16,6 +16,26 @@ function init(e){
         $('.mobile_menu').slideToggle();
         e.preventDefault()
     })
+    
+    $('#newsletter_form').submit(function(e){
+        e.preventDefault();
+        if ($("#newsletter_agree").prop("checked") != true){
+            alert("Please agree to receive newsletters from Midtown Plaza.");
+            $("#newsletter_agree").focus();
+            return false;
+        }
+        $.getJSON(
+            this.action + "?callback=?",
+            $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    alert("Please try again later.");
+                } else { // 200
+                    $("#success_subscribe").fadeIn();
+                }
+            }
+        );
+    });
 }
 
 

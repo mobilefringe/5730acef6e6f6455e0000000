@@ -92,7 +92,7 @@
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">here</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>

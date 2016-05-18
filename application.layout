@@ -90,8 +90,8 @@
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Shopping Hours</a></li>
+                            <li><a href="/pages/district-services">Services</a></li>
                             <li><a href="#">here</a></li>
                         </ul>
                     </div>

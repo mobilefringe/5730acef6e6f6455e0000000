@@ -55,7 +55,7 @@
                 <li><a href="/location">LOCATION</a></li>
                 <li>
                     <a href="#" id="mobile_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTER INFORMATION</a>
-                    <ul class="" aria-labelledby="mobile_dd">
+                    <ul class="">
                     	<li><a href="#">3rd level</a></li>
                     	<li><a href="#">3rd level</a></li>
                     </ul>

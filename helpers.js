@@ -64,14 +64,8 @@ function show_content(){
 	var all_hours = {}
 
     $.each(hours, function(i, v){
-        if (v.day_of_week == 1){
-            monday = v
-        }
-        if (v.day_of_week == 0){
-            sunday = v
-        }
-        if (v.day_of_week == 6){
-            saturday = v
+        if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
+            all_hours.push(v)
         }
     })
     

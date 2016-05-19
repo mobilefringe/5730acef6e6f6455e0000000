@@ -270,13 +270,13 @@ function load_map(reg, store_details){
     drop_pin(store_details.svgmap_region);
 }
 
-function init_map(reg){
+function init_map(reg, height, width){
     map = $('#mapsvg').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: '#EF4D86'},
         disableAll: true,
-        height:800,
-        width:1140,
+        height:height,
+        width:width,
         regions: reg,
         tooltipsMode:'custom',
         loadingText: "loading...",

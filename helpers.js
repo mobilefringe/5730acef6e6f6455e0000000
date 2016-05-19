@@ -250,7 +250,7 @@ function load_map(reg, store_details, h, w){
     this_region = {};
     this_region = store_details.svgmap_region;
     map = $('#mapsvg_store_detail').mapSvg({
-        source: getSVGMapURL(),    // Path to SVG map
+        source: getSVGMapURL(),
         colors: {stroke: '#aaa', hover: 0, selected: '#ffbe1d'},
         disableAll: true,
         height:h,
@@ -272,7 +272,7 @@ function load_map(reg, store_details, h, w){
 
 function init_map(reg, h, w){
     map = $('#mapsvg').mapSvg({
-        source: getSVGMapURL(),    // Path to SVG map
+        source: getSVGMapURL(),
         colors: {stroke: '#aaa', hover: '#ffbe1d'},
         disableAll: true,
         height:h,

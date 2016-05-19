@@ -53,6 +53,7 @@
         })
         init_map(regions, 2500, 2000)
         show_content();
+        
         $('.map_pin_a').click(function(e){
             e.preventDefault();
             var id = $(this).attr('data-value')

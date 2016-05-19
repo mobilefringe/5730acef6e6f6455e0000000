@@ -504,8 +504,7 @@ function renderHours(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-    item_list.push(collection);    
-    $.each( item_list , function( key, val ) {
+    $.each( collection , function( key, val ) {
         var d = new Date();
         switch(val.day_of_week) {
             case 0:

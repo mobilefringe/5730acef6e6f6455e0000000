@@ -25,7 +25,6 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
-        show_content();
     })
     
     function renderPage(){
@@ -33,5 +32,6 @@
         var slug = pathArray[pathArray.length-1];
         promo_details = getPromotionDetailsBySlug(slug);
         renderPromotionDetails('#promotion_details_container', '#promotion_details_template', promo_details)
+        show_content();
     }
 </script>

@@ -25,7 +25,6 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
-        show_content();
     })
     
     function renderPage(){
@@ -33,5 +32,6 @@
         var slug = pathArray[pathArray.length-1];
         event_details = getEventDetailsBySlug(slug);
         renderEventDetails('#event_details_container', '#event_details_template', event_details)
+        show_content();
     }
 </script>

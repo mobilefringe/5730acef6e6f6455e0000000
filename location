@@ -29,7 +29,6 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
-        show_content();
     })
     
     function renderPage(){
@@ -42,5 +41,6 @@
                 $("#404_msg").fadeIn("fast");
             }
         }); 
+        show_content();
     }
 </script>

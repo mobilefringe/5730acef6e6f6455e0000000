@@ -4,7 +4,14 @@
     </div>
 </div>
 <div class="main_container mobile_padding">
-    <div class="map_container" id="mapsvg"></div>
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+            <img src="http://placehold.it/220x600" />
+        </div>
+        <div class="details_col_9">
+            <div id="mm_page_content" class="details_desc"></div>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/raphael.js"></script>

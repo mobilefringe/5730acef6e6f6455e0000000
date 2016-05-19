@@ -4,7 +4,7 @@
     </div>
 </div>
 <div class="main_container mobile_padding">
-    Coming soon
+    <div class="map_container" id="mapsvg"></div>
 </div>
 
 <script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/raphael.js"></script>

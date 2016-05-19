@@ -52,7 +52,7 @@
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
                                 <p class="colored_link">{{name}}</p>
-                                <h3 class="publish_date"><a href="/stores/{{slug_slug}}"><span class="promo_parent">{{store_name}} | </span><br class="visible_phone" />{{dates}}</h3>
+                                <h3 class="publish_date"><a href="/stores/{{slug_slug}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/promotions/{{slug}}" class="read_more">Read More</a>
                             </div>

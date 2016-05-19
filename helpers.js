@@ -67,7 +67,7 @@ function show_content(){
         if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
             all_hours.push(v)
         }
-    }
+    })
     
     renderHours('#hours_container', '#hours_template', all_hours)
 }

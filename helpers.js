@@ -245,7 +245,7 @@ function drop_pin(id){
     $('#btnZoomIn').click()
 }
 
-function load_map(reg, store_details){
+function load_map(reg, store_details, height, width){
     this_region = {};
     this_region = store_details.svgmap_region;
     map = $('#mapsvg_store_detail').mapSvg({

@@ -61,9 +61,7 @@ function show_content(){
 	})
 	
 	var hours = getMallHours();
-	var monday = {};
-	var saturday = {};
-	var sunday = {};
+	var all_hours = {}
 
     $.each(hours, function(i, v){
         if (v.day_of_week == 1){

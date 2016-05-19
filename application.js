@@ -508,7 +508,7 @@ function renderHours(container, template, collection){
     $.each( item_list , function( key, val ) {
         val.day = get_day(val.day_of_week);
         var d = new Date();
-        console.log(v)
+        console.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

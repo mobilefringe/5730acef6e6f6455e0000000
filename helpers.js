@@ -60,8 +60,10 @@ function show_content(){
 	    $('.open_' + initial).slideToggle();
 	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
-	
-	var hours = getMallHours();
+}
+
+function init_hours(){
+    var hours = getMallHours();
 	var all_hours = []
 
     $.each(hours, function(i, v){

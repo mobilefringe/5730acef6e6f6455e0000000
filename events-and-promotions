@@ -70,7 +70,6 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
-        show_content();
     })
     
     function renderPage(){
@@ -110,5 +109,6 @@
             $('#promotions_header').click();
             $('#promotions_header').find('i').toggleClass('fa-chevron-down fa-chevron-up');
         }
+        show_content();
     }
 </script>

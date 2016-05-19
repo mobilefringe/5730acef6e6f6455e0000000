@@ -68,7 +68,6 @@ function show_content(){
             all_hours.push(v)
         }
     })
-    console.log(all_hours)
     
     renderHours('#hours_container', '#hours_template', all_hours)
 }

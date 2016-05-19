@@ -229,20 +229,21 @@ function sortByKey(array, key) {
     });
 }
 
-function drop_pin(id){
-    map.marksHide();
+function drop_pin(id, map){
     var coords = map.get_coords(id);
-    var height = parseInt(coords["height"]);
-    var width = parseInt(coords["width"]);
+    var height = parseInt(coords["height"])
+    var width = parseInt(coords["width"])
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],
-        attrs: {
-            src:  'http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/png/1452532624000/pin_93.png'
+    
+    map.setMarks([{ xy: [coords["x"] - 15 + x_offset, coords["y"] - 55 + y_offset],
+              attrs: {
+                        src:  'http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463000912000/pin2.png'     // image for marker
+                      }
         }
-    }]);
-    map.setViewBox(id);
-    $('#btnZoomIn').click()
+        ])
+        map.setViewBox(id);
+        map.selectRegion(id);
 }
 
 function load_map(reg, store_details, h, w){

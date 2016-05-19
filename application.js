@@ -508,14 +508,7 @@ function renderHours(container, template, collection){
     $.each( item_list , function( key, val ) {
         val.day = get_day(val.day_of_week);
         var d = new Date();
-        val.month = get_month(d.getMonth());
-        val.weekday = addZero(d.getDate());
         
-        var open_time = new Date (val.open_time);
-        var close_time = new Date (val.close_time);
-        val.open_time = convert_hour(open_time);
-        val.close_time = convert_hour(close_time);    
-        val.hours = val.open_time+ " - " + val.close_time;
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

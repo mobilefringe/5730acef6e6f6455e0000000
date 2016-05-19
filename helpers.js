@@ -60,7 +60,7 @@ function show_content(){
 	    $('.open_' + initial).slideToggle();
 	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
-	
+	alert("here")
 	var hours = getMallHours();
 	var all_hours = []
 

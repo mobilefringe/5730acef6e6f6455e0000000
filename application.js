@@ -506,18 +506,6 @@ function renderHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         var d = new Date();
-        switch(val.day_of_week) {
-            case 0:
-                val.day = "Sunday";
-                break;
-            case 1:
-                val.day = "Monday to Friday";
-                break;
-            case 6:
-                val.day = "Saturday";
-                break;
-        }
-        console.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

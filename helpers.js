@@ -252,8 +252,8 @@ function load_map(reg, store_details, height, width){
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0, selected: '#EF4D86'},
         disableAll: true,
-        height:335,
-        width:848,
+        height:height,
+        width:width,
         regions: reg,
         tooltipsMode:'custom',
         loadingText: "loading...",

@@ -67,11 +67,7 @@ function show_content(){
         if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
             all_hours.push(v)
         }
-    })
-    
-    console.log(monday)
-    console.log(saturday)
-    console.log(sunday)
+    }
     
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
 }

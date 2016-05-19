@@ -115,7 +115,7 @@
                         <p>
                             {%raw%}{{day}} 
                             <br />
-                            {{hours}}{%endraw%}
+                            {{hour}}{%endraw%}
                         </p>
                     </script>
                 </div>

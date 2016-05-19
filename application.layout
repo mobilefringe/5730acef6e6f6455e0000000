@@ -113,7 +113,7 @@
                 <div class="hours_footer" id="hours_container">
                     <script id="hours_template" type="x-tmpl-mustache/text">
                         <p>
-                            {%raw%}{{day}} 
+                            {%raw%}{{day_of_week}} 
                             <br />
                             {{hours}}{%endraw%}
                         </p>

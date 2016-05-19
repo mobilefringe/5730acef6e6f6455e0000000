@@ -80,6 +80,8 @@ function show_content(){
     console.log(monday)
     console.log(saturday)
     console.log(sunday)
+    
+    renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
 }
 
 function show_cat_stores(){

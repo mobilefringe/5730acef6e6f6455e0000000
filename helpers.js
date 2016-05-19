@@ -59,7 +59,23 @@ function show_content(){
 	    $('.open_' + initial).slideToggle();
 	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
+	
+	var hours = getMallHours();
+	var monday = {};
+	var saturday = {};
+	var sunday = {};
 
+    $.each(hours, function(i, v){
+        if (v.day_of_week == 1){
+            monday = v
+        }
+        if (v.day_of_week == 0){
+            
+        }
+        if (v.day_of_week == 6){
+            
+        }
+    })
 }
 
 function show_cat_stores(){

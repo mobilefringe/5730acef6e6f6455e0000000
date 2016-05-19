@@ -275,8 +275,8 @@ function init_map(reg, h, w){
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: '#EF4D86'},
         disableAll: true,
-        height:height,
-        width:width,
+        height:h,
+        width:w,
         regions: reg,
         tooltipsMode:'custom',
         loadingText: "loading...",

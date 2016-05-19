@@ -76,6 +76,10 @@ function show_content(){
             saturday = v
         }
     })
+    
+    console.log(monday)
+    console.log(saturday)
+    console.log(sunday)
 }
 
 function show_cat_stores(){

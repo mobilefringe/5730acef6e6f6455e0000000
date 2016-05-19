@@ -46,7 +46,7 @@
         $('#store_select_container').change(function(e){
             drop_pin($(this).val())
         })
-        // init_map(regions, 2500, 2000)
+        init_map(regions, 2500, 2000)
         show_content();
     }
 </script>

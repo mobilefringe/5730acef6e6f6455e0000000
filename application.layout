@@ -41,7 +41,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('http://greenvalley.mallmaverick.com/api/v2/district/all.json');
+        setEndPoint('http://greenvalley.mallmaverick.com/api/v2/greenvalley/all.json');
     </script>
 </head>
 

@@ -307,32 +307,7 @@ function renderPromotionDetails(container, template, collection){
 }
 
 
-function renderJobs(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    Mustache.parse(template_html); 
-    $.each( collection , function( key, val ) {
-        if(val.jobable_type == "Store"){
-            val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
-        }
-        else{
-            val.store_name = site_json.name;
-        }
-        console.log(val)
-        var show_date = new Date (val.show_on_web_date  + site_json.time_zone);
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates =  val.job_type + " - Ends "+get_month(end.getMonth())+" "+end.getDate();    
-        }
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-    });
-    $(container).html(item_rendered.join(''));
-}
+
 
 function renderEvents(container, template, collection){
     var item_list = [];
@@ -435,7 +410,7 @@ function renderJobs(container, template, collection){
     $.each( collection , function( key, val ) {
         if(val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+            val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
             val.store_name = site_json.name;

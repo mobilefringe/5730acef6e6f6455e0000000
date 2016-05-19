@@ -472,7 +472,7 @@ function renderJobDetails(container, template, collection){
     $.each( item_list , function( key, val ) {
         if(val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+            val.store_details_btn = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
             val.store_name = site_json.name;

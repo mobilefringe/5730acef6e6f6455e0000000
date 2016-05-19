@@ -5,10 +5,10 @@
 </div>
 <div class="main_container mobile_padding">
     <div class="details_row">
-        <div class="details_col_3 hidden_phone">
+        <div class="details_col_9 ">
             <div class="map_container" id="mapsvg"></div>
         </div>
-        <div class="details_col_9">
+        <div class="details_col_3 hidden_phone">
             <div id="mm_page_content" class="details_desc"></div>
         </div>
     </div>

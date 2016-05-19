@@ -67,13 +67,13 @@ function show_content(){
         if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
             switch(val.day_of_week) {
                 case 0:
-                    val.day = "Sunday";
+                    v.day = "Sunday";
                     break;
                 case 1:
-                    val.day = "Monday to Friday";
+                    v.day = "Monday to Friday";
                     break;
                 case 6:
-                    val.day = "Saturday";
+                    v.day = "Saturday";
                     break;
             }
             all_hours.push(v)

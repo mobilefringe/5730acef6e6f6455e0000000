@@ -113,9 +113,9 @@
                 <div class="hours_footer" id="hours_container">
                     <script id="hours_template" type="x-tmpl-mustache/text">
                         <p>
-                            {{day}} 
+                            {%raw%}{{day}} 
                             <br />
-                            {{hours}}
+                            {{hours}}{%endraw%}
                         </p>
                     </script>
                 </div>

@@ -245,15 +245,15 @@ function drop_pin(id){
     $('#btnZoomIn').click()
 }
 
-function load_map(reg, store_details, height, width){
+function load_map(reg, store_details, h, w){
     this_region = {};
     this_region = store_details.svgmap_region;
     map = $('#mapsvg_store_detail').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0, selected: '#EF4D86'},
         disableAll: true,
-        height:height,
-        width:width,
+        height:h,
+        width:w,
         regions: reg,
         tooltipsMode:'custom',
         loadingText: "loading...",
@@ -270,7 +270,7 @@ function load_map(reg, store_details, height, width){
     drop_pin(store_details.svgmap_region);
 }
 
-function init_map(reg, height, width){
+function init_map(reg, h, w){
     map = $('#mapsvg').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: '#EF4D86'},

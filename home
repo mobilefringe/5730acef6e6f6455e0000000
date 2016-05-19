@@ -25,7 +25,6 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderPage);
-        show_content();
     })
     
     function renderPage(){
@@ -36,5 +35,6 @@
         $('.flexslider').flexslider({
             animation: "fade",
         });
+        show_content();
     }
 </script>

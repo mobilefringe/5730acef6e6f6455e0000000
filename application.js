@@ -320,6 +320,7 @@ function renderJobs(container, template, collection){
         else{
             val.store_name = site_json.name;
         }
+        console.log(val)
         var show_date = new Date (val.show_on_web_date  + site_json.time_zone);
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         if (start.toDateString() == end.toDateString()) {

@@ -30,7 +30,7 @@
     
     function renderPage(){
          var stores = getStoresList();
-        renderStoreList('#store_select_container','#store_select_template', stores, "stores", "A", "Z");
+        renderStoreList('#stores_container','#stores_template', stores, "stores", "A", "Z");
         show_content();
         $('#top_nav_stores').addClass('active_yellow')
         regions = {};

@@ -70,10 +70,10 @@ function show_content(){
             monday = v
         }
         if (v.day_of_week == 0){
-            
+            sunday = v
         }
         if (v.day_of_week == 6){
-            
+            ssaturday = v
         }
     })
 }

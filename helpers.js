@@ -14,6 +14,7 @@ function init(e){
     }
     $('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();
+        $(this).toggleClass('flip')
         e.preventDefault()
     })
     

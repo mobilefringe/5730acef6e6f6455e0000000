@@ -68,19 +68,19 @@
                         <span id="social_facebook"></span>
                     </a>
                     <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809758000/twitter.png" class="" alt="twitter">
+                        <span id="social_twitter"></span>
                     </a>
                     <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809752000/pinterest.png" class="" alt="pinterest">
+                        <span id="social_pinterest"></span>
                     </a>
                     <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809767000/instagram.png" class="" alt="instagram">
+                        <span id="social_facebook"></span>
                     </a>
                     <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809881000/you_tube.png" class="" alt="youtube">
+                        <span id="social_facebook"></span>
                     </a>
                     <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1462809889000/google_plus.png" class="" alt="google plus">
+                        <span id="social_facebook"></span>
                     </a>
                 </div>
                 <div class="clearfix"></div>

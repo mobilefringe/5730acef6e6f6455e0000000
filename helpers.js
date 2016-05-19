@@ -73,7 +73,7 @@ function show_content(){
             sunday = v
         }
         if (v.day_of_week == 6){
-            ssaturday = v
+            saturday = v
         }
     })
 }

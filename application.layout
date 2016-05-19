@@ -119,7 +119,7 @@
                 <div class="newsletter_div">
                     <form action="http://mobilefringe.createsend.com/t/d/s/kkuyhl/" method="post" id="newsletter_form">
                         <input name="cm-kkuyhl-kkuyhl" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required />
-                        <button class="newsletter_btn">Subscribe</button>
+                        <button class="newsletter_btn animated_btn">Subscribe</button>
                         <label class="newsletter_label">
                             <input id="newsletter_agree" type="checkbox" />
                             I agree to receive newsletters from The District at the green valley ranch.

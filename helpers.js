@@ -242,8 +242,8 @@ function drop_pin(id, map){
                       }
         }
         ])
-        map.setViewBox(id);
-        map.selectRegion(id);
+    map.setViewBox(id);
+    map.selectRegion(id);
 }
 
 function load_map(reg, store_details, h, w){

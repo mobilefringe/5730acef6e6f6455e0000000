@@ -69,7 +69,7 @@ function show_content(){
         }
     }
     
-    renderHomeHours('#hours_container', '#hours_template', all_hours)
+    renderHours('#hours_container', '#hours_template', all_hours)
 }
 
 function show_cat_stores(){

@@ -518,6 +518,7 @@ function renderHours(container, template, collection){
                 val.day = "Saturday";
                 break;
         }
+        consol.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

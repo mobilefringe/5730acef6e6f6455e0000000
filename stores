@@ -84,5 +84,6 @@
         var categories = getStoreCategories();
         renderGeneral('#category_container, #category_container2', '#category_template', categories);
         show_content();
+        show_cat_stores();
     }
 </script>

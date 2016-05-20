@@ -123,7 +123,7 @@
                     </script>
                 </div>
                 <div class="clearfix"></div>
-                <hr class="mobile_separator" />
+                <hr class="visible_phone mobile_separator" />
             </div>
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>

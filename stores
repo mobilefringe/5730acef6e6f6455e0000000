@@ -78,17 +78,7 @@
     })
     
     function renderPage(){
-        var stores = [];
-        var s1 = getStoresListByCategoryID(4035)
-        var s2 = getStoresListByCategoryID(4024)
-        var s3 = getStoresListByCategoryID(4042)
-        var s4 = getStoresListByCategoryID(4044)
-        stores.concat(s1)
-        stores.concat(s2)
-        stores.concat(s3)
-        stores.concat(s4)
-        
-        
+        var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
         var categories = getStoreCategories();

@@ -29,7 +29,9 @@
                     CATEGORIES
                     <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
-                <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd"></ul>
+                <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
+                    
+                </ul>
             </div>
         </div>
     </div>
@@ -91,8 +93,8 @@
         
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
-        var categories = getStoreCategories();
-        renderGeneral('#category_container, #category_container2', '#category_template', categories);
+        // var categories = getStoreCategories();
+        // renderGeneral('#category_container, #category_container2', '#category_template', categories);
         show_content();
         show_cat_stores();
     }

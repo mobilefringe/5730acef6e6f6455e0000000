@@ -30,7 +30,11 @@
                     <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
-                    
+                    <li href="#" class="show_all_stores">All</li>
+                    <li class="show_cat_stores" data-id="4035">Restaurant</li>
+                    <li class="show_cat_stores" data-id="4024">Pizza Restaurant</li>
+                    <li class="show_cat_stores" data-id="4042">Barbeque Restaurant</li>
+                    <li class="show_cat_stores" data-id="4044">Health Food Restaurant</li>
                 </ul>
             </div>
         </div>

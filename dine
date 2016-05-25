@@ -99,6 +99,14 @@
         stores = stores.concat(s2)
         stores = stores.concat(s3)
         stores = stores.concat(s4)
+        var newarr = [];
+        var unique = {};
+        $.each(stores, function(i,v){
+            if (!unique[v.slug]) {
+                newarr.push(v);
+                unique[v.slug] = v;
+            }
+        })
         
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );

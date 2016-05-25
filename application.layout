@@ -113,7 +113,7 @@
     <section class="main_footer main_container">
         <div class="footer_row">
             <div class="footer_col">
-                <h5 class="heading">MANAGEMENT HOURS</h5>
+                <h5 class="heading">MANAGEMENT OFFICE HOURS</h5>
                 <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463686637000/clock.png" class="hours_clock" alt="hours clock">
                 <div class="hours_footer" id="hours_container">
                     <script id="hours_template" type="x-tmpl-mustache/text">

@@ -208,8 +208,8 @@ function renderStoreDetailsHours(container, template, collection){
         }
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
-        val.open_time = (open_time);
-        val.close_time = (close_time);
+        val.open_time = convert_hour(open_time);
+        val.close_time = convert_hour(close_time);
         if (val.is_closed == true){
             val.hour_string = "Closed"
         } else {

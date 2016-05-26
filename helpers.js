@@ -164,7 +164,12 @@ function convert_hour(d){
         }
         
         i = "pm"
-    } else {
+    }
+    else if(h==0){
+        h=h+12;
+        i= "am"
+    }
+    else {
         i = "am"
     }
     return h+":"+m+i;

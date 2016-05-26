@@ -158,12 +158,16 @@ function convert_hour(d){
     var m = addZero(d.getUTCMinutes());
     var s = addZero(d.getUTCSeconds());
     console.log(h)
-    if (h > 12) {
+    if (h >= 12) {
         if ( h != 12) {
             h = h - 12;    
         }
         
         i = "pm"
+    }
+    else if(h==0){
+        h=h+12;
+        i= "am"
     }
     else {
         i = "am"

@@ -165,10 +165,6 @@ function convert_hour(d){
         
         i = "pm"
     }
-    else if(h==0){
-        h=h+12;
-        i= "am"
-    }
     else {
         i = "am"
     }

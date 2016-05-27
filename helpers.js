@@ -65,7 +65,7 @@ function show_content(){
 
     $.each(hours, function(i, v){
         if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
-            if(v.is_holiday != true || v.is_closed != true){
+            if(v.is_holiday != true && v.is_closed != true){
                 switch(v.day_of_week) {
                     case 0:
                         v.day = "Sunday";

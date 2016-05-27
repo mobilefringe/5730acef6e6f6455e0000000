@@ -31,6 +31,7 @@
         $.getJSON(pages_json).done(function(data) {
             $('#mm_page_title').html(data.title);
             $('#mm_page_content').html(data.body);
+            $('#top_banner').addClass(data.slug)
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
                 $("#404_msg").fadeIn("fast");

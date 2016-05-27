@@ -77,8 +77,8 @@ function show_content(){
                         v.day = "Saturday";
                         break;
                 }
-            }
             all_hours.push(v)
+            }
         }
     })
     all_hours = all_hours.sortBy(function(o){ return o.day })

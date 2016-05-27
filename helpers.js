@@ -64,17 +64,19 @@ function show_content(){
 	var all_hours = []
 
     $.each(hours, function(i, v){
-        if ((v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6) && (v.is_holiday != true || v.is_closed != true)){
-            switch(v.day_of_week) {
-                case 0:
-                    v.day = "Sunday";
-                    break;
-                case 1:
-                    v.day = "Monday to Friday";
-                    break;
-                case 6:
-                    v.day = "Saturday";
-                    break;
+        if (v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6){
+            if(v.is_holiday != true || v.is_closed != true){
+                switch(v.day_of_week) {
+                    case 0:
+                        v.day = "Sunday";
+                        break;
+                    case 1:
+                        v.day = "Monday to Friday";
+                        break;
+                    case 6:
+                        v.day = "Saturday";
+                        break;
+                }
             }
             all_hours.push(v)
         }

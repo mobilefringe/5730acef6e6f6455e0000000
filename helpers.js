@@ -298,7 +298,7 @@ function init_map(reg, h, w){
 
 
 function show_png_pin(trigger){
-    $(".map_pin_a").click(function(e) {
+    $(trigger).click(function(e) {
         e.preventDefault()
         var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
         coords = $(this).attr('data-value').split(",");

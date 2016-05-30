@@ -302,20 +302,20 @@ function show_png_pin(trigger, map){
         e.preventDefault()
         var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
         coords = $(this).attr('data-value').split(",");
-        var zoomData = $('#png_map').smoothZoom('getZoomData');
+        var zoomData = $(map).smoothZoom('getZoomData');
         x_coord = parseInt(coords[0])
         y_coord = parseInt(coords[1])
         floor = (coords[3])
         
         name = $(this).text();
-        $('#png_map').smoothZoom('removeLandmark')
+        $(map).smoothZoom('removeLandmark')
         if (isMobile) {
-            $('#png_map').smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
         } else {
-            $('#png_map').smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
         }
         
-        $('#png_map').smoothZoom('addLandmark', 
+        $(map).smoothZoom('addLandmark', 
 			[
 			'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
 				<div>\

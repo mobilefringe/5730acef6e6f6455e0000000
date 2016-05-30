@@ -97,6 +97,9 @@ function renderStoreList(container, template, collection, type, starter, breaker
             val.promotion_exist = "display:none";
         }
         
+        val.map_x = val.x_coordinate - 19;
+        val.map_y = val.y_coordinate - 58;
+        
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();

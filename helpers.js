@@ -338,7 +338,7 @@ function show_png_pin_without_link(coords, text){
     y_coord = parseInt(coords[1])
     floor = (coords[3])
     
-    name = $(this).text();
+    name = text;
     $(map).smoothZoom('removeLandmark')
     if (isMobile) {
         $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    

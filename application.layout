@@ -163,7 +163,8 @@
             <p class="footer_text">
                 <a href="tel:7025648595">702.564.8595</a> | <a href="#">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
             </p>
-            <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt="">
+          <a href="http://www.vestar.com/" target="_blank">
+                <img src="http://assets.codecloudapp.com/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt=""> </a>
             <p class="footer_text">
                 Powered by <a href="http://mallmaverick.com" target="_blank">Mall Maverick</a>
             </p>
@@ -178,7 +179,8 @@
                 </p>
             </div>
             <div class="col-md-6 text-right ">
-                <img src="http://assets.codecloudapp.com/sites/5730acef6e6f6455e0000000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt="">
+                 <a href="http://www.vestar.com/" target="_blank">
+                <img src="http://assets.codecloudapp.com/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt=""> </a>
                 <div>
                     <p class="footer_text">
                         2225 Village Walk Drive, Suite 171, Henderson, NV 89052

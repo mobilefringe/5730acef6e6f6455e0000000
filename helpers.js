@@ -79,6 +79,7 @@ function show_content(){
             all_hours.push(v)
         }
     })
+    console.log(all_hours)
     all_hours = all_hours.sortBy(function(o){ return o.day })
     renderHours('#hours_container', '#hours_template', all_hours)
 }

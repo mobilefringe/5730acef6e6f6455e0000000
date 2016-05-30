@@ -327,5 +327,8 @@ function show_png_pin(trigger, map, page){
 			</div>'
 			]
 		);
+		if (page == "details"){
+		    $('#store_name').click()
+		}
     });
 }

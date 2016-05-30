@@ -329,3 +329,7 @@ function show_png_pin(trigger, map){
 		);
     });
 }
+
+function show_png_pin_without_link(coords){
+    
+}

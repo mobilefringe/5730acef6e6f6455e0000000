@@ -330,7 +330,7 @@ function show_png_pin(trigger, map){
     });
 }
 
-function show_png_pin_without_link(coords, text){
+function show_png_pin_without_link(coords, text, map){
     var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
     coords = coords.split(",");
     var zoomData = $(map).smoothZoom('getZoomData');

@@ -5,7 +5,8 @@ function init(e){
     if ($('#instafeed').length > 0) {
         var feed = new Instafeed({
             get: 'user',
-            userId: site_json.instagram,
+            userId: 94764,
+		accessToken: '94764.1677ed0.c6256a27eddf41709ddf29af3469a4e5',
             clientId: 'da5cf03899eb49a496424d9a76bafa0d',
             template: '<a class="ig_image" target=_blank href="{{link}}" title="{{caption}}" ><img src="{{image}}" /></a>',
             limit : 15

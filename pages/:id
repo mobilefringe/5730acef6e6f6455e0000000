@@ -26,9 +26,7 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-        if (slug == "greenvalley-privacy-policy"){
-            $('#side_image').attr('')
-        }
+        
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
         var pages_json = prefix+"/pages/" + slug + ".json"

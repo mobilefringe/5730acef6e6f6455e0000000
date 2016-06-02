@@ -6,7 +6,7 @@ function init(e){
         var feed = new Instafeed({
             get: 'user',
             userId: site_json.instagram,
-            accessToken: site_json.access_token
+            accessToken: site_json.access_token,
             template: '<a class="ig_image" target=_blank href="{{link}}" title="{{caption}}" ><img src="{{image}}" /></a>',
             limit : 15
         });

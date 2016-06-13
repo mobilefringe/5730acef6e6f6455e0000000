@@ -83,6 +83,11 @@ function show_content(){
     renderHours('#hours_container', '#hours_template', all_hours)
 }
 
+
+function render_instagram(data){
+    $('#instafeed').html(data)
+}
+
 function show_cat_stores(){
     $('.show_cat_stores').click(function(e){
         var cat_id = $(this).attr('data-id');

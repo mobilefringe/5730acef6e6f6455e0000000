@@ -73,7 +73,7 @@ function show_content(){
     all_hours = all_hours.sortBy(function(o){ return o.day })
     renderHours('#hours_container', '#hours_template', all_hours)
     
-    get_instagram(site_json.social_feed, 10, 'thumbnail', render_instagram)
+    get_instagram(site_json.social_feed, 15, 'thumbnail', render_instagram)
 }
 
 

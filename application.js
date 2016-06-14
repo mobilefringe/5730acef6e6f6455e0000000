@@ -334,7 +334,12 @@ function renderEvents(container, template, collection){
             val.store_name = site_json.name;
             val.image_url = site_json.default_image;
         }
-        console.log(val)
+        if (val.tags.join(',').indexOf('ongoing') > 0){
+            val.hide_dates= "display:none"
+        }
+        else{
+            val.hide_dates= "display:inline"
+        }
         if(val.event_image_url_abs.indexOf('missing.png') > 0){
             val.event_image_url_abs  = site_json.default_image ;
             val.promo_image = "display:none";

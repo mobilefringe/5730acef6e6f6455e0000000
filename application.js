@@ -334,7 +334,7 @@ function renderEvents(container, template, collection){
             val.store_name = site_json.name;
             val.image_url = site_json.default_image;
         }
-        console.log(val.tags.join(','))
+        console.log(val.tags.join(',').indexOf('ongoing') > 0)
         if (val.tags.join(',').indexOf('ongoing') > 0){
             val.hide_dates= "display:none"
         }

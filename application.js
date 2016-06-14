@@ -391,6 +391,13 @@ function renderEventDetails(container, template, collection){
             val.full_width = "width:100%"
         }
         
+        if (val.tags.join(',').indexOf('ongoing') > 0){
+            val.hide_dates= "display:none"
+        }
+        else{
+            val.hide_dates= "display:inline"
+        }
+        
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }

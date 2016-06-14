@@ -390,8 +390,7 @@ function renderEventDetails(container, template, collection){
             val.promo_image = "display:none";
             val.full_width = "width:100%"
         }
-        console.log(val.tags.join(','))
-        if (val.tags.join(',').indexOf('ongoing') > 0){
+        if (val.tags.join(',').indexOf('ongoing') >= 0){
             val.hide_dates= "display:none"
         }
         else{

@@ -232,6 +232,7 @@ function sortByKey(array, key) {
 }
 
 function drop_pin(id, map){
+    console.log(map)
     var coords = map.get_coords(id);
     var height = parseInt(coords["height"])
     var width = parseInt(coords["width"])

@@ -270,11 +270,8 @@ function load_map(reg, store_details, h, w){
     });
     map.setViewBox(store_details.svgmap_region);
     map.selectRegion(store_details.svgmap_region);
-    drop_pin(store_details.svgmap_region);
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
+    drop_pin(store_details.svgmap_region, map);
+    
 }
 
 function init_map(reg, h, w){

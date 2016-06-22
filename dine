@@ -107,7 +107,7 @@
                 unique[v.slug] = v;
             }
         })
-        
+        stores.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', newarr.sortBy(function(o){ return o.name }), "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', newarr.sortBy(function(o){ return o.name }), "stores","M", "Z" );
         // var categories = getStoreCategories();

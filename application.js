@@ -175,6 +175,12 @@ function renderStoreDetails(container, template, collection){
         else{
             val.facebook_show = "display:none";
         }
+        if (val.unit == null && val.unit.length > 0){
+            val.address_show = "display:inline-block";
+        }
+        else{
+            val.address_show = "display:none";
+        }
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         var rendered = Mustache.render(template_html,val);

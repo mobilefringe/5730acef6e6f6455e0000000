@@ -175,6 +175,7 @@ function renderStoreDetails(container, template, collection){
         else{
             val.facebook_show = "display:none";
         }
+        console.log(val)
         if (val.unit == null && val.unit.length > 0){
             val.address_show = "display:inline-block";
         }

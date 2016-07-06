@@ -102,30 +102,26 @@ function show_cat_stores(){
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
-        show_all_stores(e)
+        $('#store_list_container, #store_list_container2').removeClass("full_width");
+        $('.active_cat').removeClass('active_cat');
+        $(this).addClass('active_cat');
+        var rows = $('.cats_row');
+        if ($(window).width() > 768){
+            rows.show();
+        }
+        else{
+            rows.hide();
+        }
+        $.each($('.store_initial'), function(i, val){
+           if ($(val).text().trim().length > 0){
+               $(val).show();
+           } 
+        });
+        
+        $('#cat_name').hide();
+        e.preventDefault();
     });
     
-}
-
-function show_all_stores(e){
-    $('#store_list_container, #store_list_container2').removeClass("full_width");
-    $('.active_cat').removeClass('active_cat');
-    $(this).addClass('active_cat');
-    var rows = $('.cats_row');
-    if ($(window).width() > 768){
-        rows.show();
-    }
-    else{
-        rows.hide();
-    }
-    $.each($('.store_initial'), function(i, val){
-       if ($(val).text().trim().length > 0){
-           $(val).show();
-       } 
-    });
-    
-    $('#cat_name').hide();
-    e.preventDefault();
 }
 
 function get_day(id){

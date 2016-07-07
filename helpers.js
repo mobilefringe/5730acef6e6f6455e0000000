@@ -368,3 +368,10 @@ function show_png_pin_without_link(coords, text, map){
     	);
     }
 }
+
+
+function isInt(value) {
+  return !isNaN(value) && 
+         parseInt(Number(value)) == value && 
+         !isNaN(parseInt(value, 10));
+}

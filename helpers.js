@@ -349,7 +349,7 @@ function show_png_pin_without_link(coords, text, map){
         name = text;
         $("#png_map").smoothZoom('removeLandmark')
         if (isMobile) {
-            $("#png_map").smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
         } else {
             $("#png_map").smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
         }

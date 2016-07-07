@@ -43,7 +43,7 @@
             </span>
             <div id="numbered_store_list_container" class="numbers_exist">
                 <script id="numbered_store_list_template" type="x-tmpl-mustache/text">
-                    <div class="row cats_row open_{{data_initial}}" data-cat="{{cat_list}}">
+                    <div class="row cats_row open_#" data-cat="{{cat_list}}">
                         <div class="col-md-12">
                             <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         </div>

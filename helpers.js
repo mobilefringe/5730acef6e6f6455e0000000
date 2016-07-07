@@ -345,7 +345,7 @@ function show_png_pin_without_link(coords, text, map){
     x_coord = parseInt(coords[0])
     y_coord = parseInt(coords[1])
     floor = (coords[3])
-    console.log(x_coord)
+    console.log(x_coord === NaN)
     name = text;
     $(map).smoothZoom('removeLandmark')
     if (isMobile) {

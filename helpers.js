@@ -338,14 +338,14 @@ function show_png_pin(trigger, map){
 }
 
 function show_png_pin_without_link(coords, text, map){
-    console.log(coords)
+    
     var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
     coords = coords.split(",");
     var zoomData = $(map).smoothZoom('getZoomData');
     x_coord = parseInt(coords[0])
     y_coord = parseInt(coords[1])
     floor = (coords[3])
-    
+    console.log(x_coord)
     name = text;
     $(map).smoothZoom('removeLandmark')
     if (isMobile) {

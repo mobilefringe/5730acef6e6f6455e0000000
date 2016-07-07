@@ -374,7 +374,7 @@ function isInt(value) {
     return !isNaN(value) && parseInt(Number(value)) == value && !isNaN(parseInt(value, 10));
 }
 
-function msieversion() {
+function isIE() {
 
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");

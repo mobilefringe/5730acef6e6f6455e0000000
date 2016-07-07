@@ -109,6 +109,8 @@ function renderStoreList(container, template, collection, type, starter, breaker
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         
+        
+        var upper_current_initial = current_initial.toUpperCase();
         if(starter == '#' && breaker == '#'){
             console.log(upper_current_initial)
             if(upper_current_initial > 0){
@@ -116,7 +118,6 @@ function renderStoreList(container, template, collection, type, starter, breaker
                 item_rendered.push(rendered);
             }
         }
-        var upper_current_initial = current_initial.toUpperCase();
         if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
             item_rendered.push(rendered);
         }

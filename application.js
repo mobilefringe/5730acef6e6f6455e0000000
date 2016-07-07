@@ -111,7 +111,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
         
         if(starter == '#' && breaker == '#'){
             if(upper_current_initial > 0){
-                console.log(upper_current_initial)
+                
                 item_rendered.push(rendered);
             }
         }

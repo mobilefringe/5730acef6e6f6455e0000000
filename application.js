@@ -112,10 +112,8 @@ function renderStoreList(container, template, collection, type, starter, breaker
         
         var upper_current_initial = current_initial.toUpperCase();
         
-        if(starter == '#' && breaker == '#'){
-            if(isInt(upper_current_initial)){
-                item_rendered.push(rendered);
-            }
+        if(starter == '#' && breaker == '#' && isInt(upper_current_initial)){
+            item_rendered.push(rendered);
         }
         if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
             item_rendered.push(rendered);

@@ -41,7 +41,7 @@
             <span style="display:block" class="store_initial open_stores" data-initial="#">
                 #<i class="fa fa-chevron-down visible_phone pull-right"></i>
             </span>
-            <div id="numbered_store_list_container">
+            <div id="numbered_store_list_container" class="numbers_exist">
                 
             </div>
             <div id="store_list_container">

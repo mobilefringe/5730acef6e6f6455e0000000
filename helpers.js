@@ -347,14 +347,14 @@ function show_png_pin_without_link(coords, text, map){
     floor = (coords[3])
     if (isNaN(x_coord) == false && isNaN(y_coord) == false){
         name = text;
-        $(map).smoothZoom('removeLandmark')
+        $("#png_map").smoothZoom('removeLandmark')
         if (isMobile) {
-            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+            $("#png_map").smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
         } else {
-            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
+            $("#png_map").smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
         }
         
-        $(map).smoothZoom('addLandmark', 
+        $("#png_map").smoothZoom('addLandmark', 
     		[
     		'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
     			<div>\

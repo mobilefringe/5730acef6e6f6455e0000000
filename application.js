@@ -110,8 +110,8 @@ function renderStoreList(container, template, collection, type, starter, breaker
         var rendered = Mustache.render(template_html,val);
         
         if(starter == '#' && breaker == '#'){
-            console.log(starter)
             if(upper_current_initial > 0){
+                console.log(starter)
                 item_rendered.push(rendered);
             }
         }

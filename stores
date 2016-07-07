@@ -38,7 +38,7 @@
             <span class="store_initial hidden_now" id="cat_name"></span>
         </div>
         <div class="col-md-6">
-            <span style="display:block" class="store_initial open_stores" data-initial="#">
+            <span style="display:block" class="store_initial open_stores numbers_exist" data-initial="#">
                 #<i class="fa fa-chevron-down visible_phone pull-right"></i>
             </span>
             <div id="numbered_store_list_container" class="numbers_exist">

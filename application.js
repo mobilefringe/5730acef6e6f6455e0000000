@@ -108,8 +108,9 @@ function renderStoreList(container, template, collection, type, starter, breaker
         val.map_y = val.y_coordinate - 58;
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
-        console.log(starter)
+        
         if(starter == '#' && breaker == '#'){
+            console.log(starter)
             if(upper_current_initial > 0){
                 item_rendered.push(rendered);
             }

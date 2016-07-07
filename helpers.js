@@ -345,25 +345,26 @@ function show_png_pin_without_link(coords, text, map){
     x_coord = parseInt(coords[0])
     y_coord = parseInt(coords[1])
     floor = (coords[3])
-    console.log(isNaN(x_coord))
-    name = text;
-    $(map).smoothZoom('removeLandmark')
-    if (isMobile) {
-        $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
-    } else {
-        $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
+    if (isNaN(x_coord) == false && isNaN(y_coord) == false){
+        name = text;
+        $(map).smoothZoom('removeLandmark')
+        if (isMobile) {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+        } else {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:300});
+        }
+        
+        $(map).smoothZoom('addLandmark', 
+    		[
+    		'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
+    			<div>\
+    				<div class="text">\
+    				<strong>'+ name+ '</strong>\
+    			</div>\
+    			<img src="http://assets.codecloudapp.com/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
+    			</div>\
+    		</div>'
+    		]
+    	);
     }
-    
-    $(map).smoothZoom('addLandmark', 
-		[
-		'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
-			<div>\
-				<div class="text">\
-				<strong>'+ name+ '</strong>\
-			</div>\
-			<img src="http://assets.codecloudapp.com/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
-			</div>\
-		</div>'
-		]
-	);
 }

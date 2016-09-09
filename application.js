@@ -37,8 +37,7 @@ function renderPopUp(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
-    console.log(collection)
-    if(collection.url == "" || collection.url === null){
+    if(collection.photo_link == "" || collection.photo_link === null){
        collection.css = "style=cursor:default;";
        collection.no_link = "return false";
     }

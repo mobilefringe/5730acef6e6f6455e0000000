@@ -32,6 +32,21 @@ function renderBanner(banner_template,home_banner,banners){
     $(home_banner).html(item_rendered.join(''));
 }
 
+function renderPopUp(container, template, collection){
+        var item_list = [];
+        var item_rendered = [];
+        var template_html = $(template).html();
+        Mustache.parse(template_html); 
+        if(collection.url == "" || collection.url === null){
+           collection.css = "style=cursor:default;";
+           collection.no_link = "return false";
+        }
+        collection.image_url_abs = "http://cdn.mallmaverick.com" + collection.photo_url
+        var rendered = Mustache.render(template_html,collection);
+        item_rendered.push(rendered);
+        $(container).html(item_rendered.join(''));
+    }
+
 function renderFeatureItems(container, template, collection){
     var item_list = [];
     var item_rendered = [];

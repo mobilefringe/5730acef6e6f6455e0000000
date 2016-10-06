@@ -112,7 +112,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
         else{
             val.new_store = "display:none";
         }
-        if (val.promotions.length > 0){
+        if (val.total_published_promos > 0){
             val.promotion_exist = "display:inline";
         }
         else{

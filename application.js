@@ -112,13 +112,11 @@ function renderStoreList(container, template, collection, type, starter, breaker
         else{
             val.new_store = "display:none";
         }
-        
         val.map_x = val.x_coordinate - 19;
         val.map_y = val.y_coordinate - 58;
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
-        
-        
+    
         var upper_current_initial = current_initial.toUpperCase();
         if(starter == '#' && breaker == '#' && isInt(upper_current_initial)){
             item_rendered.push(rendered);
@@ -127,9 +125,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
         if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
             item_rendered.push(rendered);
         }
-
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
@@ -269,24 +265,20 @@ function renderPromotions(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
         }
-        else{
+        else {
             val.store_name = site_json.name;
         }
-        
-        if(val.promo_image_url_abs.indexOf('missing.png') > 0){
+        if (val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.promo_image_url_abs  = site_json.default_image ;
             // val.promo_image = "display:none";
             // val.full_width = "width:100%"
         }
-        
-        
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
         }
-        else{
+        else {
             val.description_short = val.description
         }
-        
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);

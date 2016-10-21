@@ -48,7 +48,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('//twinpines.mallmaverick.com/api/v33/twinpines/all.json');
+        setEndPoint('//costamesa.mallmaverick.com/api/v33/costamesa/all.json');
     </script>
 </head>
 

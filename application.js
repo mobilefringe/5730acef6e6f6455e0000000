@@ -76,12 +76,11 @@ function renderStoreList(container, template, collection, type, starter, breaker
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
-            
         }
-        if(val.total_published_promos > 0){
+        if (val.total_published_promos > 0){
             val.promo_exist = "display:inline"
         }
-        else{
+        else {
             val.promo_exist = "display:none"
         }
         //var categories = getStoreCategories();
@@ -93,29 +92,28 @@ function renderStoreList(container, template, collection, type, starter, breaker
             val.initial = "";
             val.show = "display:none;";
         }
-        else{
+        else {
             val.data_initial = current_initial;
             val.initial = current_initial;
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        if(val.is_coming_soon_store == true){
+        if (val.is_coming_soon_store == true){
             val.coming_soon_store = "display:inline";
         }
-        else{
+        else {
             val.coming_soon_store = "display:none";
         }
-        if(val.is_new_store == true){
+        if (val.is_new_store == true){
             val.new_store = "display:inline";
         }
-        else{
+        else {
             val.new_store = "display:none";
         }
         val.map_x = val.x_coordinate - 19;
         val.map_y = val.y_coordinate - 58;
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
-    
         var upper_current_initial = current_initial.toUpperCase();
         if(starter == '#' && breaker == '#' && isInt(upper_current_initial)){
             item_rendered.push(rendered);
@@ -134,13 +132,12 @@ function renderGeneral(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
-    $.each( collection , function( key, val ) {
+    $.each(collection, function(key, val){
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
     });
     $(container).html(item_rendered.join(''));
 }
-
 
 function renderStoreDetails(container, template, collection){
     var item_list = [];
@@ -155,40 +152,37 @@ function renderStoreDetails(container, template, collection){
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
-        
         if (val.website != null && val.website.length > 0){
             val.show = "display:block";
         }
-        else{
+        else {
             val.show = "display:none";
         }
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:block";
         }
-        else{
+        else {
             val.phone_show = "display:none";
         }
-        
         if (val.twitter != null && val.twitter.length > 0){
             val.twitter_show = "display:inline-block";
         }
-        else{
+        else {
             val.twitter_show = "display:none";
         }
-        
-        if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
+        if ((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
             val.hide_social = "display:none;";
         }
         if (val.facebook != null && val.facebook.length > 0){
             val.facebook_show = "display:inline-block";
         }
-        else{
+        else {
             val.facebook_show = "display:none";
         }
         if (val.unit != null && val.unit.length > 0){
             val.address_show = "display:inline-block";
         }
-        else{
+        else {
             val.address_show = "display:none";
         }
         val.map_x_coordinate = val.x_coordinate - 19;
@@ -228,7 +222,6 @@ function renderStoreDetailsHours(container, template, collection){
             case 6:
                 val.day = "Saturday";
                 break;
-            
         }
         // var open_time = new Date (val.open_time);
         // var close_time = new Date (val.close_time);
@@ -281,7 +274,6 @@ function renderPromotions(container, template, collection){
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);
-    
         // if (start.toDateString() == end.toDateString()) {
         //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         // } else {
@@ -297,7 +289,6 @@ function renderPromotions(container, template, collection){
         else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
@@ -316,24 +307,20 @@ function renderPromotionDetails(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
         }
-        else{
+        else {
             val.store_name = site_json.name;
         }
-        
-        if(val.promo_image_url_abs.indexOf('missing.png') > 0){
+        if (val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.promo_image_url_abs  = site_json.default_image ;
             val.promo_image = "display:none";
             val.full_width = "width:100%"
         }
-        
-        if(val.promo_image_url_abs.indexOf('missing.png') > -1){
+        if (val.promo_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
-        
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);
-    
         // if (start.toDateString() == end.toDateString()) {
         //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         // } else {
@@ -349,15 +336,11 @@ function renderPromotionDetails(container, template, collection){
         else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
 }
-
-
-
 
 function renderEvents(container, template, collection){
     var item_list = [];
@@ -371,33 +354,30 @@ function renderEvents(container, template, collection){
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
         }
-        else{
+        else {
             val.store_name = site_json.name;
             val.image_url = site_json.default_image;
         }
         if (val.tags.join(',').indexOf('ongoing') >= 0){
             val.hide_dates= "display:none"
         }
-        else{
+        else {
             val.hide_dates= "display:inline"
         }
-        if(val.event_image_url_abs.indexOf('missing.png') > 0){
+        if (val.event_image_url_abs.indexOf('missing.png') > 0){
             val.event_image_url_abs  = site_json.default_image ;
             val.promo_image = "display:none";
             val.full_width = "width:100%"
         }
-        
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
         }
-        else{
+        else {
             val.description_short = val.description
         }
-        
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);
-    
         // if (start.toDateString() == end.toDateString()) {
         //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         // } else {
@@ -413,13 +393,11 @@ function renderEvents(container, template, collection){
         else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
 }
-
 
 function renderEventDetails(container, template, collection){
     var item_list = [];
@@ -433,11 +411,10 @@ function renderEventDetails(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
         }
-        else{
+        else {
             val.store_name = site_json.name;
         }
-        
-        if(val.event_image_url_abs.indexOf('missing.png') > 0){
+        if (val.event_image_url_abs.indexOf('missing.png') > 0){
             val.event_image_url_abs  = site_json.default_image ;
             val.promo_image = "display:none";
             val.full_width = "width:100%"
@@ -445,24 +422,21 @@ function renderEventDetails(container, template, collection){
         if (val.tags.join(',').indexOf('ongoing') >= 0){
             val.hide_dates= "display:none"
         }
-        else{
+        else {
             val.hide_dates= "display:inline"
         }
-        
-        if(val.event_image_url_abs.indexOf('missing.png') > -1){
+        if (val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
         }
-        else{
+        else {
             val.description_short = val.description
         }
-        
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);
-    
         // if (start.toDateString() == end.toDateString()) {
         //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         // } else {
@@ -478,7 +452,6 @@ function renderEventDetails(container, template, collection){
         else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
@@ -491,17 +464,17 @@ function renderJobs(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
-        if(val.jobable_type == "Store"){
+        if (val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
         }
-        else{
+        else {
             val.store_name = site_json.name;
         }
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
         }
-        else{
+        else {
             val.description_short = val.description
         }
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
@@ -518,6 +491,7 @@ function renderJobs(container, template, collection){
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
@@ -526,7 +500,6 @@ function renderJobs(container, template, collection){
         else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
@@ -540,24 +513,22 @@ function renderJobDetails(container, template, collection){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if(val.jobable_type == "Store"){
+        if (val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
         }
-        else{
+        else {
             val.store_name = site_json.name;
         }
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
         }
-        else{
+        else {
             val.description_short = val.description
         }
-        
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
         // start = new Date (val.start_date + site_json.time_zone);
         // end = new Date (val.end_date + site_json.time_zone);
-    
         // if (start.toDateString() == end.toDateString()) {
         //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         // } else {
@@ -573,7 +544,6 @@ function renderJobDetails(container, template, collection){
         else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
@@ -587,7 +557,6 @@ function renderHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         // var d = new Date();
-        
         // var open_time = new Date (val.open_time);
         // var close_time = new Date (val.close_time);
         // val.open_time = convert_hour(open_time);

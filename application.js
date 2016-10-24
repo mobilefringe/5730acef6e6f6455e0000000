@@ -599,16 +599,15 @@ function renderHours(container, template, collection){
         //     val.hour = val.open_time+ " - " + val.close_time;
         // }
         
-        d = moment();
+        var d = moment();
         
-        var open_time = moment(val.open_time);
-        var close_time = moment(val.close_time);
+        var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
         if (val.is_closed == true){
-            val.hour = "Closed"
-        }
-        else{
-            val.hour = open_time.format("h:mma") + " - " + close_time.format("h:mma");
-        }
+            val.hour_string = "Closed"
+        } else {
+            val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+        } 
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

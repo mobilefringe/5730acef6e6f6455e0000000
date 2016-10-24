@@ -600,13 +600,12 @@ function renderHours(container, template, collection){
         // }
         
         var d = moment();
-        
         var open_time = moment(val.open_time).tz(getPropertyTimeZone());
         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
         if (val.is_closed == true){
-            val.hour_string = "Closed"
+            val.hour = "Closed"
         } else {
-            val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+            val.hour = open_time.format("h:mma") + " - " + close_time.format("h:mma");
         } 
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

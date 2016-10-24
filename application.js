@@ -84,7 +84,6 @@ function renderStoreList(container, template, collection, type, starter, breaker
         else{
             val.promo_exist = "display:none"
         }
-        console.log(val)
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
         val.cat_list = val.categories.join(',')

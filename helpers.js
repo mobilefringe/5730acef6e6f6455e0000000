@@ -400,6 +400,8 @@ function submit_contest(slug) {
     contest_data.postal_code = $('#postal_code').val();
     contest_data.age = $('#age').val();
     contest_data.gender = $('#gender').val();
+    contest_data.newsletter = $('#gender').val();
+    
     contest_entry.contest = contest_data;
     
     var propertyDetails = getPropertyDetails();

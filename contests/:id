@@ -26,6 +26,7 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         contest_details = getContestBySlug(slug);
+        renderContestDetails("#contest_details_container", )
         show_content();
     }
 </script>

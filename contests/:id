@@ -88,7 +88,7 @@
         $.validate();
         $('#contest_form').submit(function(e){
             $('.contest_btn').prop('disabled', true);
-            submit_contest($(this).serialize(), slug);
+            submit_contest(slug);
         })
     }
 </script>

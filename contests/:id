@@ -40,8 +40,7 @@
                             <input class="form-control" id="phone_number" name="contest[phone]" type="text"  />
                         </div>
                     </div>
-                    <div class="margin_30"></div>
-                    <div class="row">
+                    <div class="row margin_30">
                         <div class="col-md-4">
                             <label for="postal_code">Postal Code</label> 
                             <input class="form-control" id="postal_code" name="contest[postal_code]" type="text"  />

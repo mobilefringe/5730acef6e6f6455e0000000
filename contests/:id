@@ -86,5 +86,8 @@
         renderContest("#contest_details_container", '#contest_details_template', contest_details)
         show_content();
         $.validate();
+        $('#signup_form').submit(function(e){
+            $('.send_btn').prop('disabled', true);
+        })
     }
 </script>

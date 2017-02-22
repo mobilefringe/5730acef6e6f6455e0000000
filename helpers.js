@@ -403,7 +403,7 @@ function submit_contest(slug) {
     contest_entry.contest = contest_data;
     
     var propertyDetails = getPropertyDetails();
-    var host = propertyDetails.mm_host;
+    var host = propertyDetails.mm_host.replace("http:", "");
     var action = host + "/contests/" + slug + "/create_js_entry"
     $.ajax({
         url : action,

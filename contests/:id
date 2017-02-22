@@ -32,7 +32,7 @@
                     <div class="row margin_30">
                         <div class="col-md-6">
                             <label for="email">Email *</label> 
-                            <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" />
+                            <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="The input value is incorrect email address" data-validation="custom" />
                         </div>
                         <div class="col-md-6">
                             <label for="phone_number">Phone Number</label>  

@@ -19,7 +19,7 @@
                     <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
                     <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
                     <input type="hidden" name="cm-name" id="cm-name" />
-                    <div class="row">
+                    <div class="row margin_30">
                         <div class="col-md-6">
                             <label for="first_name">First Name *</label>  
                             <input class="form-control" id="first_name" name="contest[first_name]" type="text" required />

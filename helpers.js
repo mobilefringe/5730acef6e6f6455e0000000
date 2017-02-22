@@ -397,7 +397,7 @@ function submit_contest(data) {
     contest_data.email = $('#email').val();
     contest_data.phone = $('#phone_number').val();
     contest_data.postal_code = $('#postal_code').val();
-    contest_data.postal_code = $('#postal_code').val();
+    contest_data.postal_code = $('#age').val();
     contest_data.postal_code = $('#postal_code').val();
     contest_entry.contest = contest_data;
     $.ajax({

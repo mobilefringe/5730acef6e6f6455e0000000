@@ -87,7 +87,7 @@
         show_content();
         $.validate();
         $('#contest_form').submit(function(e){
-            $('.send_btn').prop('disabled', true);
+            $('.contest_btn').prop('disabled', true);
         })
     }
 </script>

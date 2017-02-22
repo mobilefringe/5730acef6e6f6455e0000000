@@ -13,6 +13,7 @@
             <script id="contest_details_template" type="x-tmpl-mustache/text">
                 <img src="{{alt_photo_url}}" class="details_image" style="{{promo_image}}" />
                 <p class="colored_link">{{name}}</p>
+                <div class="details_desc">{{{rich_description}}}</div>
             </script>
         </div>
     </div>

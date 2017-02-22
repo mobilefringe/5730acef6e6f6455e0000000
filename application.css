@@ -1181,7 +1181,7 @@ body{
         display:none;
     }
     
-    .col-md-6, .col-md-12, .col-md-4{
+    .col-md-6, .col-md-12, .col-md-4, .col-md-2{
         padding-left:0;
         padding-right:0;
     }

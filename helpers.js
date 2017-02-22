@@ -390,21 +390,26 @@ function isIE() {
 }
 
 function submit_contest(data) {
-    var propertyDetails = getPropertyDetails();
-    var host = propertyDetails.mm_host;
-    var email = $("#email").val();
-    var name = $("#first_name").val() + " " + $("#last_name").val();
+    var contest_entry = {};
+    var contest_data = {};
+    contest_data.first_name = $('#first_name').val();
+    contest_data.last_name = $('#last_name').val();
+    contest_data.email = $('#email').val();
+    contest_data.mailing_address = $('#company_address').val();
+    contest_data.phone = $('#phone').val();
+    contest_data.notes = $('#company_name').val();
+    contest_data.postal_code = $('#team_members').val();
+    contest_entry.contest = contest_data;
     $.ajax({
-        url: host+"/newsletter_no_captcha",
+        url : "https://core.mallmaverick.com/contests/core-find-christmas-downtown/create_js_entry",
         type: "POST",
-        data: data,
-        success: function(data) {
-            $("#success_subscribe").fadeIn();
-            $('#form_div').hide();
+        data : contest_entry,
+        success: function(data){
+           $('#succes_msg').show();
         },
-        error: function(data){
-            $("#success_subscribe").fadeIn();
-            $('#form_div').hide();
+        error: function (data){
+            alert('An error occured while processing your request. Please try again later!')
         }
     });
+    
 }

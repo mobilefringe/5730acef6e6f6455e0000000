@@ -87,6 +87,7 @@
         show_content();
         $.validate();
         $('#contest_form').submit(function(e){
+            e.preventDefault();
             $('.contest_btn').prop('disabled', true);
             submit_contest(slug);
         })

@@ -22,17 +22,17 @@
                     <div class="row margin_30">
                         <div class="col-md-6">
                             <label for="first_name">First Name *</label>  
-                            <input class="form-control" id="first_name" name="contest[first_name]" type="text" required />
+                            <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required"  />
                         </div>
                         <div class="col-md-6">
                             <label for="last_name">Last Name *</label>  
-                            <input class="form-control" id="last_name" name="contest[last_name]" type="text" required />
+                            <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" />
                         </div>
                     </div>
                     <div class="row margin_30">
                         <div class="col-md-6">
                             <label for="email">Email *</label> 
-                            <input class="form-control" id="email" name="contest[email]" type="email" required />
+                            <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" />
                         </div>
                         <div class="col-md-6">
                             <label for="phone_number">Phone Number</label>  

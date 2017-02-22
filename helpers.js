@@ -406,7 +406,7 @@ function submit_contest(data, slug) {
     var host = propertyDetails.mm_host;
     var action = host + "/contests/" + slug + "/create_js_entry"
     $.ajax({
-        url : "",
+        url : action,
         type: "POST",
         data : contest_entry,
         success: function(data){

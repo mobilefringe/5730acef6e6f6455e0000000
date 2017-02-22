@@ -389,7 +389,7 @@ function isIE() {
     }
 }
 
-function submit_contest(data, slug) {
+function submit_contest(slug) {
     
     var contest_entry = {};
     var contest_data = {};

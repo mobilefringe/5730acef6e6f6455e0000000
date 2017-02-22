@@ -390,6 +390,7 @@ function isIE() {
 }
 
 function submit_contest(data, slug) {
+    var action = "https://core.mallmaverick.com/contests/core-find-christmas-downtown/create_js_entry"
     var contest_entry = {};
     var contest_data = {};
     contest_data.first_name = $('#first_name').val();
@@ -401,7 +402,7 @@ function submit_contest(data, slug) {
     contest_data.postal_code = $('#gender').val();
     contest_entry.contest = contest_data;
     $.ajax({
-        url : "https://core.mallmaverick.com/contests/core-find-christmas-downtown/create_js_entry",
+        url : "",
         type: "POST",
         data : contest_entry,
         success: function(data){

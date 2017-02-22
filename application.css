@@ -85,6 +85,11 @@ body{
     border-radius: 4px;
 }
 
+.help-block{
+    margin-bottom: -20px;
+    margin-top:0;
+}
+
 .promo_exist{
     padding: 10px 0;
     color: $layout_color;

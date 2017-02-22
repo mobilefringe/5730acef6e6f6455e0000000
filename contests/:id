@@ -64,6 +64,7 @@
                             </label>
                             <p>For more details about personal privacy, please read our <a href="/privacy" target="_blank">Privacy Policy.</a></p>
                             <button class="main_btn animated_btn contest_btn">Submit</button>
+                            <br />
                             <p class="" id="succes_msg" style="display:none">Thank you! Your entry have been received.</p>
                         </div>
                     </div>

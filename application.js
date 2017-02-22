@@ -590,15 +590,8 @@ function renderContest(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
 
     collection.alt_photo_url = getImageURL(collection.photo_url);
-    item_list.push(collection);
-    collection = [];
-    collection = item_list;
-
-    $.each( collection , function( key, val ) {
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-
-    });
+    var rendered = Mustache.render(template_html,val);
+    item_rendered.push(rendered);
     
     $(container).show();
     $(container).html(item_rendered.join(''));

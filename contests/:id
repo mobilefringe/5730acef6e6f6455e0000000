@@ -85,5 +85,6 @@
         contest_details = getContestBySlug(slug);
         renderContest("#contest_details_container", '#contest_details_template', contest_details)
         show_content();
+        $.validate();
     }
 </script>

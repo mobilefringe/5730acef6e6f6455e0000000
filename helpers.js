@@ -389,7 +389,7 @@ function isIE() {
     }
 }
 
-function submit_contest(data) {
+function submit_contest(data, slug) {
     var contest_entry = {};
     var contest_data = {};
     contest_data.first_name = $('#first_name').val();

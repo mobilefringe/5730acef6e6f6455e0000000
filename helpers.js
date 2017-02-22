@@ -398,7 +398,7 @@ function submit_contest(data) {
     contest_data.phone = $('#phone_number').val();
     contest_data.postal_code = $('#postal_code').val();
     contest_data.postal_code = $('#age').val();
-    contest_data.postal_code = $('#postal_code').val();
+    contest_data.postal_code = $('#gender').val();
     contest_entry.contest = contest_data;
     $.ajax({
         url : "https://core.mallmaverick.com/contests/core-find-christmas-downtown/create_js_entry",

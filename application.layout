@@ -38,7 +38,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/56056be06e6f641a1d020000/application/x-javascript/1404372988000/instagram.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/56056be06e6f641a1d020000/text/javascript/1446569669000/instafeed.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script src="/application.js" type="text/javascript"></script>
     <script src="//5730acef6e6f6455e0000000.codecloudapp.com/helpers.js" type="text/javascript"></script>
     <script src="../site.js" type="text/javascript"></script>

@@ -60,8 +60,9 @@
                         <div class="col-md-12">
                             <label>
                                 <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" /> 
-                                I agree to receive newsletters from {{property_name}}. You can unsubscribe anytime. For more details about personal privacy, please read our <a href="/privacy" target="_blank">Privacy Policy.</a>
+                                I agree to receive newsletters from {{property_name}}. 
                             </label>
+                            <p>You can unsubscribe anytime. For more details about personal privacy, please read our <a href="/privacy" target="_blank">Privacy Policy.</a></p>
                         </div>
                     </div>
                 </form>

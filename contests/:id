@@ -11,7 +11,7 @@
         </div>
         <div class="details_col_9" id="contest_details_container">
             <script id="contest_details_template" type="x-tmpl-mustache/text">
-            
+            {{name}}
             </script>
         </div>
     </div>

@@ -259,7 +259,6 @@ function renderPromotions(container, template, collection){
         }
         else {
             val.store_name = site_json.name;
-            val.store_detail_btn = "";
         }
         if (val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.promo_image_url_abs  = site_json.default_image ;

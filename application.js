@@ -280,7 +280,7 @@ function renderPromotions(container, template, collection){
         //     val.dates = "Starts " + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
         // }
         
-        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+        var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
@@ -386,9 +386,7 @@ function renderEvents(container, template, collection){
         
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
-        console.log(start);
         var end = moment(val.end_date).tz(getPropertyTimeZone());
-        console.log(end);
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
         }

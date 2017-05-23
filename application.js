@@ -284,6 +284,7 @@ function renderPromotions(container, template, collection){
         // var start = moment(val.start_date).tz(getPropertyTimeZone());
         // var end = moment(val.end_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(site_json.time_zone);
+        console.log(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");

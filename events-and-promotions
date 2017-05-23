@@ -101,7 +101,7 @@
             
             today = moment();
             webDate = moment(val.show_on_web_date);
-            if (today >= webDate) {
+            if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                 published_promos.push(val)
             } 
         });

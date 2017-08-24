@@ -149,11 +149,12 @@ function renderStoreDetails(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = site_json.default_image;
+        if (val.store_front_url != null){
+            val.alt_store_front_url = getImageURL(val.store_front_url); 
+            
             // val.show_main_image="display:none"
         } else {
-            val.alt_store_front_url = getImageURL(val.store_front_url); 
+            val.alt_store_front_url = site_json.default_image;
         }
         if (val.website != null && val.website.length > 0){
             val.show = "display:block";

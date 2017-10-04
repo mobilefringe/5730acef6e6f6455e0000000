@@ -259,19 +259,19 @@ function renderPromotions(container, template, collection){
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
-        }
-        else {
+        } else {
             val.store_name = site_json.name;
         }
+        
         if (val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.promo_image_url_abs  = site_json.default_image ;
             // val.promo_image = "display:none";
             // val.full_width = "width:100%"
         }
+        
         if (val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
-        }
-        else {
+        } else {
             val.description_short = val.description
         }
         // var show_date = new Date (val.show_on_web_date + site_json.time_zone);
@@ -288,8 +288,7 @@ function renderPromotions(container, template, collection){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
         var rendered = Mustache.render(template_html,val);

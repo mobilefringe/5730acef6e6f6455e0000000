@@ -49,7 +49,7 @@
     <!-- Site data -->
     <script>
         // setEndPoint('//costamesa.mallmaverick.com/api/v3/costamesa/all.json');
-        setEndPoint('//longbeach.mallmaverick.com/api/v4/longbeach/all.json');
+        setEndPoint('//valleyfair.mallmaverick.com/api/v4/valleyfair/all.json');
     </script>
 </head>
 

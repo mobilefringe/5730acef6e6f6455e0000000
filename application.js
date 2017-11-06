@@ -88,7 +88,6 @@ function renderStoreList(container, template, collection, type, starter, breaker
         if(val.categories != null && val.categories != undefined){
             val.cat_list = val.categories.join(',');
         }
-        
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.data_initial = current_initial;
             store_initial = current_initial;

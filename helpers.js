@@ -2,8 +2,7 @@ function init(e){
     
     $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     
-    var current_year = moment().year();
-    $("#current_year").text(current_year);
+    
     
     $('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();
@@ -44,6 +43,10 @@ function init(e){
 function show_content(){
     $('.custom_backdrop').remove();
     $('.yield').fadeIn();
+    
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
+    
     $('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});

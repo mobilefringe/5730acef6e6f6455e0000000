@@ -159,7 +159,7 @@
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
             <p class="footer_text">
-                © Copyright 2016 The District at Green Valley Ranch
+                © Copyright <span id="current_year"></span> The District at Green Valley Ranch
             </p>
             <p class="footer_text">
                 2225 Village Walk Drive, Suite 171, Henderson, NV 89052
@@ -176,7 +176,7 @@
         <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
-                    © Copyright 2016 The District at Green Valley Ranch
+                    © Copyright <span id="current_year"></span> The District at Green Valley Ranch
                 </p>
                 <p class="footer_text">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>

@@ -41,6 +41,11 @@ function init(e){
 function show_content(){
     $('.custom_backdrop').remove();
     $('.yield').fadeIn();
+    
+    var year = moment().year();
+    console.log(current_year);
+    $("#current_year").text(moment().year());
+    
     $('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	});

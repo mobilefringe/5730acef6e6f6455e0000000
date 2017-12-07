@@ -4,7 +4,7 @@ function init(e){
     
     var current_year = moment().year();
     console.log(current_year);
-    $("#current_year").html(current_year);
+    $("#current_year").text(current_year);
     
     $('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();

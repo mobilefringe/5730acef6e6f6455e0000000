@@ -42,7 +42,7 @@ function show_content(){
     $('.custom_backdrop').remove();
     $('.yield').fadeIn();
     
-    var year = moment().year();
+    var current_year = moment().year();
     console.log(current_year);
     $("#current_year").text(moment().year());
     

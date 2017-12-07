@@ -2,10 +2,6 @@ function init(e){
     
     $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     
-    var year = moment().year();
-    console.log(current_year);
-    $("#current_year").text(moment().year());
-    
     $('.open_menu').click(function(e){
         $('.mobile_menu').slideToggle();
         $('.open_menu').toggleClass('flip')

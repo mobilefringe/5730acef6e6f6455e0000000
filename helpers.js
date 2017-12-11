@@ -43,8 +43,7 @@ function show_content(){
     $('.yield').fadeIn();
     
     var current_year = moment().year();
-    console.log(current_year);
-    $("#current_year").text(current_year);
+    $(".current_year").text(current_year);
     
     $('.accordion_header').click(function(e){
         $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');

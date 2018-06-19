@@ -69,7 +69,6 @@ function renderStoreList(container, template, collection, type, starter, breaker
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
-    console.log("Store In ", store_initial)
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
@@ -88,7 +87,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
         if(val.categories != null){
             val.cat_list = val.categories.join(',');
         }
-        
+        console.log("Store In ", store_initial)
         var current_initial = val.name[0];
         console.log("Current ", current_initial)
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){

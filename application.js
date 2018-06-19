@@ -87,9 +87,8 @@ function renderStoreList(container, template, collection, type, starter, breaker
         if(val.categories != null){
             val.cat_list = val.categories.join(',');
         }
-        console.log("Store In ", store_initial)
+        
         var current_initial = val.name[0];
-        console.log("Current ", current_initial)
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.data_initial = current_initial;
             store_initial = current_initial;

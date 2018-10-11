@@ -237,7 +237,6 @@ function renderStoreDetailsHours(container, template, collection){
         
         var open_time = moment(val.open_time).tz(getPropertyTimeZone());
         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-        console.log("val.open_full_day", val.open_full_day)
         if (val.is_closed === true){
             val.hour_string = "Closed"
         } 

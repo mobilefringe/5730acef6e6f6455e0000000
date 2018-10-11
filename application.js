@@ -239,7 +239,11 @@ function renderStoreDetailsHours(container, template, collection){
         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
         if (val.is_closed == true){
             val.hour_string = "Closed"
-        } else {
+        } 
+        else if(val.open_full_day) {
+            val.hour_string = "Open 24 Hours"
+        }
+        else {
             val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
         } 
         var rendered = Mustache.render(template_html,val);

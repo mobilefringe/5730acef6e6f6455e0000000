@@ -1008,6 +1008,9 @@ body{
     }
 }
 
+.uploaded-img-responsive {
+    max-width: 100%;
+}
 
 @media(max-width:768px){
     .row{

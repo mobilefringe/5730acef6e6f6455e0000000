@@ -397,8 +397,12 @@ function renderEvents(container, template, collection){
         if ((start && end) && (start.format("DMY") == end.format("DMY"))){
         	val.dates = start.format("MMM D");
         }
-        else {
+        else if (start && end) {
+        	
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+        } 
+        else {
+            val.dates = ''
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

@@ -463,9 +463,9 @@ function renderEventDetails(container, template, collection){
         else if (start && end) {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
-        else {
-            val.dates = ''
-        }
+        // else {
+        //     val.dates = ''
+        // }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

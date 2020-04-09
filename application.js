@@ -392,6 +392,7 @@ function renderEvents(container, template, collection){
         // }
         
         var show_date = moment(val.show_on_web_date);
+        console.log('getPropertyTimeZone()', getPropertyTimeZone())
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if ((start && end) && (start.format("DMY") == end.format("DMY"))){

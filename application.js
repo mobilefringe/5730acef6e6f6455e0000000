@@ -508,10 +508,10 @@ function renderJobs(container, template, collection){
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
-        if (start.format("DMY") == end.format("DMY")){
+        if ((start && end) && start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
         }
-        else {
+        else if (start && end) {
         	val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D");
         }
         var rendered = Mustache.render(template_html,val);

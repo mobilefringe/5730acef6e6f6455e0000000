@@ -97,7 +97,7 @@ function renderStoreList(container, template, collection, type, starter, breaker
         }
         
         if (val.tags) {
-            var tags = val.tags.toString();
+            var tags = val.tags.join(', ');
             console.log("tags", tags)
             val.tag_list = tags;
             val.tags_exist = "display: inline;"

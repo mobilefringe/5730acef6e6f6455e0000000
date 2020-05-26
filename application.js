@@ -77,41 +77,42 @@ function renderStoreList(container, template, collection, type, starter, breaker
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
         }
+        console.log("val", val)
+        if (val.is_coming_soon_store == true){
+            val.coming_soon_store = "display:inline";
+        } else {
+            val.coming_soon_store = "display:none";
+        }
+        
+        if (val.is_new_store == true){
+            val.new_store = "display:inline";
+        } else {
+            val.new_store = "display:none";
+        }
+        
         if (val.total_published_promos > 0){
             val.promo_exist = "display:inline"
-        }
-        else {
+        } else {
             val.promo_exist = "display:none"
         }
-        //var categories = getStoreCategories();
+
         var current_initial = val.name[0];
-        if(val.categories != null && val.categories != undefined){
+        if (val.categories != null && val.categories != undefined){
             val.cat_list = val.categories.join(',');
         }
-        if(store_initial.toLowerCase() == current_initial.toLowerCase()){
+        
+        if (store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.data_initial = current_initial;
             store_initial = current_initial;
             val.initial = "";
             val.show = "display:none;";
-        }
-        else {
+        } else {
             val.data_initial = current_initial;
             val.initial = current_initial;
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        if (val.is_coming_soon_store == true){
-            val.coming_soon_store = "display:inline";
-        }
-        else {
-            val.coming_soon_store = "display:none";
-        }
-        if (val.is_new_store == true){
-            val.new_store = "display:inline";
-        }
-        else {
-            val.new_store = "display:none";
-        }
+        
         val.map_x = val.x_coordinate - 19;
         val.map_y = val.y_coordinate - 58;
         val.block = current_initial + '-block';

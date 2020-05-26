@@ -78,29 +78,6 @@ function renderStoreList(container, template, collection, type, starter, breaker
             }
         }
         
-        if (val.total_published_promos > 0){
-            val.promo_exist = "display:inline"
-        } else {
-            val.promo_exist = "display:none"
-        }
-       
-        if(val.categories != null){
-            val.cat_list = val.categories.join(',');
-        }
-        
-        var current_initial = val.name[0];
-        if(store_initial.toLowerCase() == current_initial.toLowerCase()){
-            val.data_initial = current_initial;
-            store_initial = current_initial;
-            val.initial = "";
-            val.show = "display:none;";
-        } else {
-            val.data_initial = current_initial;
-            val.initial = current_initial;
-            store_initial = current_initial;
-            val.show = "display:block;";
-        }
-        
         if (val.is_coming_soon_store == true){
             val.coming_soon_store = "display:inline";
         } else {
@@ -111,6 +88,34 @@ function renderStoreList(container, template, collection, type, starter, breaker
             val.new_store = "display:inline";
         } else {
             val.new_store = "display:none";
+        }
+        
+        if (val.total_published_promos > 0){
+            val.promo_exist = "display:inline"
+        } else {
+            val.promo_exist = "display:none"
+        }
+        
+        if (val.tags) {
+            var tags = val.tags.toString();
+            console.log("tags", tags)
+        }
+        
+        if (val.categories != null){
+            val.cat_list = val.categories.join(',');
+        }
+        
+        var current_initial = val.name[0];
+        if (store_initial.toLowerCase() == current_initial.toLowerCase()){
+            val.data_initial = current_initial;
+            store_initial = current_initial;
+            val.initial = "";
+            val.show = "display:none;";
+        } else {
+            val.data_initial = current_initial;
+            val.initial = current_initial;
+            store_initial = current_initial;
+            val.show = "display:block;";
         }
         
         val.map_x = val.x_coordinate - 19;
